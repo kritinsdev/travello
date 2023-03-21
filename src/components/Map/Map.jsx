@@ -1,9 +1,20 @@
-import React from 'react';
+import * as React from 'react';
+import GoogleMapReact from 'google-map-react';
+import { Paper, Typography } from '@mui/material';
+import LocationOnOutlined from '@mui/icons-material/LocationOnOutlined';
+import Rating from '@mui/material/Rating';
 
-const Map = () => {
+export default function Map() {
+    const coordinates = {lat: 0, lng: 0};
+    
     return (
-        <h1>Map</h1>
+        <div>
+            <GoogleMapReact
+                bootstrapURLKeys={{key: ''}}
+                defaultCenter={''}
+            >
+
+            </GoogleMapReact>
+        </div>
     );
 }
-
-export default Map;
