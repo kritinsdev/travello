@@ -10,14 +10,15 @@ main {
   background-color: azure;
 }
 
-.wrap {
+.mapWrap {
+  width: 50%;
   height: 100vh;
   background-color: rgb(221, 221, 221);
   padding: 16px;
 }
 
 .map {
-  width: 700px;
+  width: 100%;
   height: 100%;
   border-radius: 10px;
 } 

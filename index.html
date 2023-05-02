@@ -12,21 +12,10 @@
 
 <body>
   <main>
-    <div class="wrap">
+    <div class="mapWrap">
       <div id='map' class="map"></div>
     </div>
   </main>
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
-  <script>
-    mapboxgl.accessToken = '';
-    const map = new mapboxgl.Map({
-      container: 'map', // container ID
-      style: 'mapbox://styles/kritinsdev/clh6ok83a00s101quf9jk49sx', // style URL
-      center: [24.10, 56.94], // starting position [lng, lat]
-      zoom: 14, // starting zoom
-    });
-  </script>
-
 
   <script type="module" src="/main.js"></script>
 </body>

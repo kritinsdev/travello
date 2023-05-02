@@ -1,0 +1,85 @@
+[
+    {
+        "_id": {
+            "$oid": "64519082feb8841dab7c07d8"
+        },
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 56.8166503,
+                "lng": 24.5852203
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 56.81810178029151,
+                    "lng": 24.58664838029151
+                },
+                "southwest": {
+                    "lat": 56.81540381970851,
+                    "lng": 24.5839504197085
+                }
+            }
+        },
+        "name": "Čili Pica TC \"Dauga\"",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJPcplEWEl6UYR3_wP7FJcFDU",
+        "plus_code": {
+            "compound_code": "RH8P+M3 Ogre, Ogres pilsēta, Latvia",
+            "global_code": "9G86RH8P+M3"
+        },
+        "price_level": 2,
+        "rating": 3.7,
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2507,
+        "vicinity": "Rīgas iela 23, Ogre"
+    },
+    {
+        "_id": {
+            "$oid": "64519082feb8841dab7c07d9"
+        },
+        "business_status": "OPERATIONAL",
+        "geometry": {
+            "location": {
+                "lat": 56.822539,
+                "lng": 24.5949959
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 56.82384543029149,
+                    "lng": 24.5962936802915
+                },
+                "southwest": {
+                    "lat": 56.8211474697085,
+                    "lng": 24.5935957197085
+                }
+            }
+        },
+        "name": "ROAST",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJGfIz_V4l6UYRlADtzn0h4c0",
+        "plus_code": {
+            "compound_code": "RHFV+2X Ogre, Ogres pilsēta, Latvia",
+            "global_code": "9G86RHFV+2X"
+        },
+        "rating": 4.1,
+        "scope": "GOOGLE",
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 428,
+        "vicinity": "Mālkalnes prospekts 7, Ogre"
+    }
+]

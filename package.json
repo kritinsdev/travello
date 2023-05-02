@@ -12,6 +12,6 @@
     "vite": "^4.3.2"
   },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "mapbox-gl": "^2.14.1"
   }
 }
