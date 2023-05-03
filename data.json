@@ -1,85 +1,3451 @@
-[
-    {
-        "_id": {
-            "$oid": "64519082feb8841dab7c07d8"
-        },
-        "business_status": "OPERATIONAL",
-        "geometry": {
-            "location": {
-                "lat": 56.8166503,
-                "lng": 24.5852203
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 56.81810178029151,
-                    "lng": 24.58664838029151
-                },
-                "southwest": {
-                    "lat": 56.81540381970851,
-                    "lng": 24.5839504197085
-                }
-            }
-        },
-        "name": "Čili Pica TC \"Dauga\"",
-        "opening_hours": {
-            "open_now": false
-        },
-        "place_id": "ChIJPcplEWEl6UYR3_wP7FJcFDU",
-        "plus_code": {
-            "compound_code": "RH8P+M3 Ogre, Ogres pilsēta, Latvia",
-            "global_code": "9G86RH8P+M3"
-        },
-        "price_level": 2,
-        "rating": 3.7,
-        "scope": "GOOGLE",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
-        ],
-        "user_ratings_total": 2507,
-        "vicinity": "Rīgas iela 23, Ogre"
+[{
+    "_id": {
+      "$oid": "645222efaeffe0009440167c"
     },
-    {
-        "_id": {
-            "$oid": "64519082feb8841dab7c07d9"
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8148682,
+        "lng": 24.6023546
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8162685802915,
+          "lng": 24.6035824302915
         },
-        "business_status": "OPERATIONAL",
-        "geometry": {
-            "location": {
-                "lat": 56.822539,
-                "lng": 24.5949959
-            },
-            "viewport": {
-                "northeast": {
-                    "lat": 56.82384543029149,
-                    "lng": 24.5962936802915
-                },
-                "southwest": {
-                    "lat": 56.8211474697085,
-                    "lng": 24.5935957197085
-                }
-            }
-        },
-        "name": "ROAST",
-        "opening_hours": {
-            "open_now": false
-        },
-        "place_id": "ChIJGfIz_V4l6UYRlADtzn0h4c0",
-        "plus_code": {
-            "compound_code": "RHFV+2X Ogre, Ogres pilsēta, Latvia",
-            "global_code": "9G86RHFV+2X"
-        },
-        "rating": 4.1,
-        "scope": "GOOGLE",
-        "types": [
-            "restaurant",
-            "food",
-            "point_of_interest",
-            "establishment"
+        "southwest": {
+          "lat": 56.8135706197085,
+          "lng": 24.60088446970849
+        }
+      }
+    },
+    "name": "Kafejnīca - konditoreja Policijas akadēmija 98",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 768,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111288165591950929753\">Kafejnīca - konditoreja Policijas akadēmija 98</a>"
         ],
-        "user_ratings_total": 428,
-        "vicinity": "Mālkalnes prospekts 7, Ogre"
-    }
-]
+        "photo_reference": "AZose0meZT_z_rvXvV5HlIIZgq-FqZGR1RnzmlevAb2bfMRcjmEi3KVOgcB2P4CRBAj3Im6-EiHs3A4fNku49APEUCTn197NBYIUv6mP5MXnq3J5CIKovsQkO0aSmMEG0sniADKrMjzCSI6ZSpKPkteArwUwSjTJZlUXT48akv8zJV1aOIMv",
+        "width": 1024
+      }
+    ],
+    "place_id": "ChIJqZNH1mcl6UYR3qndd0SX-uk",
+    "plus_code": {
+      "compound_code": "RJ72+WW Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ72+WW"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 287,
+    "vicinity": "Brīvības iela 12, Ogre"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe0009440167d"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8376393,
+        "lng": 24.5036725
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8389390802915,
+          "lng": 24.5052321802915
+        },
+        "southwest": {
+          "lat": 56.8362411197085,
+          "lng": 24.5025342197085
+        }
+      }
+    },
+    "name": "Anek",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 4128,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106298935712863149883\">Andris Mickevičs</a>"
+        ],
+        "photo_reference": "AZose0lR-vOa_MOIA4FFDXo7SPmUyyAsP3zel2_gx70dIMLKRCjF7PHUS79QEdizMBA3RUxhSp9eqvsWJxyXNTEzDxE9vXLwyhsAsgYVbcq6_cjmYe8sZ_numwXNNAVLCk6ac_4GiaOk4B4_Wzz0gs5egM48-ySEETjwG_uzuePpTdPe0m81",
+        "width": 5504
+      }
+    ],
+    "place_id": "ChIJ_4NXK0gu6UYRdH6B6lnDGnM",
+    "plus_code": {
+      "compound_code": "RGQ3+3F Ikšķile, Ikšķiles pilsēta, Latvia",
+      "global_code": "9G86RGQ3+3F"
+    },
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 19,
+    "vicinity": "Daugavas prospekts 28, Ikšķile"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe0009440167e"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.7839056,
+        "lng": 24.2600805
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.7854133302915,
+          "lng": 24.2612492802915
+        },
+        "southwest": {
+          "lat": 56.7827153697085,
+          "lng": 24.2585513197085
+        }
+      }
+    },
+    "name": "Pellija A, SIA, Konditoreja, Tortes, Kūciņas, Kūkas, Bērnu tortes",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111705183549249361842\">Pellija A, SIA, Konditoreja, Tortes, Kūciņas, Kūkas, Bērnu tortes</a>"
+        ],
+        "photo_reference": "AZose0lfP0FmuDb0G250VtSITlT1EfQXOAdFDdVbL1rCXYQa6XqvXIDrHNdpNMxmkbnVDYP0ieZECbRJcoJvt6vQ_E2Zs47HKl1xC8PyWBK8F7yhzREa6KQYMdGCcMonQrtPeRGOb8nGykcJQKN8-VUL40auu2Dsm0bwfsJOcXQ6CXXMp_vW",
+        "width": 5472
+      }
+    ],
+    "place_id": "ChIJm0m8M-PR7kYRSxQuU8gQNBo",
+    "plus_code": {
+      "compound_code": "Q7M6+H2 Ķekava, Ķekava Parish, Latvia",
+      "global_code": "9G86Q7M6+H2"
+    },
+    "rating": 4.1,
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 16,
+    "vicinity": "Celtnieku iela 7, Ķekava"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe0009440167f"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.82305789999999,
+        "lng": 24.593632
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8243571302915,
+          "lng": 24.5949252802915
+        },
+        "southwest": {
+          "lat": 56.8216591697085,
+          "lng": 24.5922273197085
+        }
+      }
+    },
+    "name": "\"Trakā Bite\" SIA \"Sanrits\" kafejnīca - beķereja",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107737449917056847720\">Lauris Koja</a>"
+        ],
+        "photo_reference": "AZose0mSRB3VJaJtaEpd-h92_tN0n83jOyg3netHIuskMPdjBYV0EEgrO_g3P6EWhicU078QPecLzPRCk_seBR9xqvq8Nf24sV1JCLYrjjeYaiNCt7EaDM2W5KTcbFmREMgIJA3vN2wYT4dvuG2SoHMyyBkqvUkCz8Zm2He13rbGUL0wrQuj",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJO5obG18l6UYRi0hvIaZn6e8",
+    "plus_code": {
+      "compound_code": "RHFV+6F Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RHFV+6F"
+    },
+    "price_level": 1,
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 145,
+    "vicinity": "Mālkalnes prospekts 9, Ogre"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe00094401680"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8240659,
+        "lng": 24.5945848
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.82545393029149,
+          "lng": 24.5959393802915
+        },
+        "southwest": {
+          "lat": 56.8227559697085,
+          "lng": 24.5932414197085
+        }
+      }
+    },
+    "name": "Aliseskūkas, SIA",
+    "photos": [
+      {
+        "height": 799,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112261017511608064196\">Aliseskūkas, SIA</a>"
+        ],
+        "photo_reference": "AZose0k6tliCk-RQwtawk2XRQ4CybsMc6rr4VD-bnmlNInXkQjN0lcaP4zrgzM_wYmO1Lxihhu1M0r5qyGGHFjxm177XZsKBIGOjarfPYswGGCA_HBVIK5W8lwy0rEdax_1IE9sNZQDuFNDhuD2nvTQz70JGVTmLWh7TnXFuTtkZLBeZ0CKM",
+        "width": 1500
+      }
+    ],
+    "place_id": "ChIJmXP6zK0l6UYRqd7QYHkXBsM",
+    "plus_code": {
+      "compound_code": "RHFV+JR Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RHFV+JR"
+    },
+    "rating": 5,
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1,
+    "vicinity": "Mālkalnes prospekts 23-12, Ogre"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe00094401681"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8216018,
+        "lng": 24.5996374
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.82299478029149,
+          "lng": 24.6009159802915
+        },
+        "southwest": {
+          "lat": 56.8202968197085,
+          "lng": 24.5982180197085
+        }
+      }
+    },
+    "name": "BakerHouse bakery",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 809,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117059951721768854234\">BakerHouse bakery</a>"
+        ],
+        "photo_reference": "AZose0kRB5kBz4mBbV3lOpW_1VXDvA1qOMP6PGMzMWz9TbEGYF2mYT62_8GU75A4JPpl1SchE6g2rUs6cJzluLrhMFVgdEkh0tU-8bwOquF26LVQA_BOs72MGukzLHRmtICPyvdWnaEvpLhdhAqokZ1kdbh7yzCmnw6YcPHVILIL1HpU9X1X",
+        "width": 1440
+      }
+    ],
+    "place_id": "ChIJQQNR1pQl6UYRUDc85x-0ks8",
+    "plus_code": {
+      "compound_code": "RHCX+JV Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RHCX+JV"
+    },
+    "rating": 5,
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2,
+    "vicinity": "Mālkalnes prospekts 24, Ogre"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe00094401682"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8195521,
+        "lng": 24.6065075
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8208966802915,
+          "lng": 24.6079832802915
+        },
+        "southwest": {
+          "lat": 56.8181987197085,
+          "lng": 24.6052853197085
+        }
+      }
+    },
+    "name": "Melnā Kamene Gastrobārs",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1702,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104046099730189551615\">Melnā Kamene Gastrobārs</a>"
+        ],
+        "photo_reference": "AZose0nvZ50MK-bWSh5nX5QwaIrXiuoL1jOxlLzrR1KkY9KOexDj0uoEheVns4Y77MYPXk7eamTdHkHB_5GHtsW-jgWeFkUcTCDS9h1h1x3UD5fVpQ3qOKz3lwadIDhzBlU15nrloHHztb1zG6e_1O1ZilP7O5nPda3TxKLedIwjwCxGGuWG",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ7XkMG-Yl6UYRlU3Ppu6nRqM",
+    "plus_code": {
+      "compound_code": "RJ94+RJ Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ94+RJ"
+    },
+    "price_level": 2,
+    "rating": 4.6,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "cafe",
+      "bar",
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 250,
+    "vicinity": "Tīnūžu iela 1, Ogre"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe00094401683"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8603148,
+        "lng": 24.3685111
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.86161378029149,
+          "lng": 24.3698183802915
+        },
+        "southwest": {
+          "lat": 56.8589158197085,
+          "lng": 24.3671204197085
+        }
+      }
+    },
+    "name": "Kafejnīca \"Strelīcija\"",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106585308358921722790\">Kafejnīca &quot;Strelīcija&quot;</a>"
+        ],
+        "photo_reference": "AZose0ljQLG7Dee-nK8yAFInGHLWxN51Y-Jkr_Xo14lYWRPiawM2FnXhLmkcoZHMK8nYOI5R0VJ2RUQ4c8c7UdoyOok-w0Q7ZBgNbvPzw-ZENWVE2_NF4b3_KwUeuCCk_1aMFXAsYP20PkhjWPN6KnRCMi_ll1hkpuoD2zSKte99hJlSu3A-",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJHfsYjzPO7kYRNYTvlV4fL4Q",
+    "plus_code": {
+      "compound_code": "V969+4C Salaspils, Salaspils pilsēta, Latvia",
+      "global_code": "9G86V969+4C"
+    },
+    "rating": 4.2,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 21,
+    "vicinity": "Dienvidu iela 5, Salaspils"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe00094401684"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.7427007,
+        "lng": 24.3985209
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.7439772302915,
+          "lng": 24.3998817302915
+        },
+        "southwest": {
+          "lat": 56.7412792697085,
+          "lng": 24.3971837697085
+        }
+      }
+    },
+    "name": "Dzintarliepa",
+    "place_id": "ChIJFb4nxQUp6UYRHGR6QaNkiQg",
+    "plus_code": {
+      "compound_code": "P9VX+3C Baldone, Baldones pilsēta, Latvia",
+      "global_code": "9G86P9VX+3C"
+    },
+    "rating": 5,
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 6,
+    "vicinity": "Liepu aleja, Baldone"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe00094401685"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.85243759999999,
+        "lng": 24.3371496
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.85366618029149,
+          "lng": 24.3386670302915
+        },
+        "southwest": {
+          "lat": 56.85096821970849,
+          "lng": 24.3359690697085
+        }
+      }
+    },
+    "name": "Ingas Beķereja",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2635,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113881019061355429494\">Solvita Oļševska</a>"
+        ],
+        "photo_reference": "AZose0nAL8mdY8L0X7Vu1-ta5ynt5LG-VWiYL2AgYsejUP_O_UF6xKEiJ4a0Bozli-cedWbY83GDjfHVVTkk99VJIEUFVqUrzn2Niv_rN5FZ2rm_W6PhJ4NEu8iBfvVSJG65XSjf3Ql9YX3OLoMmz3m9hXBybVIjOO9RmtQUB09hSHWL9gPi",
+        "width": 3514
+      }
+    ],
+    "place_id": "ChIJDc2P-Wwt6UYRwL5UMMF7NFo",
+    "plus_code": {
+      "compound_code": "V82P+XV Salaspils, Salaspils pilsēta, Latvia",
+      "global_code": "9G86V82P+XV"
+    },
+    "rating": 4.6,
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 103,
+    "vicinity": "Rīgas iela 1, Salaspils"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe00094401686"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.97298730000001,
+        "lng": 24.6322111
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.97444008029151,
+          "lng": 24.63443995
+        },
+        "southwest": {
+          "lat": 56.97174211970851,
+          "lng": 24.63146815000001
+        }
+      }
+    },
+    "name": "Anastasios Greek Bakery",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109343076353575523692\">Anastasios Greek Bakery</a>"
+        ],
+        "photo_reference": "AZose0ldM2y5BK1X5nWpsQEuqQGmRkqgpkROhxJKwIz9mPpqJaWRu6rFt_eBTaqSbgfR_CB2fi0wvwSaV2iHJgNo8w3yAdZyVozWDAa01keua_muKHTsycO3AFQ2oU4oBECQ3Rf5gd-tckqP_L_nz_2uMDduRJncx8ouY1TgbFk8yo4R1ffA",
+        "width": 1280
+      }
+    ],
+    "place_id": "ChIJwwpkIZc36UYRPD9HSORZESY",
+    "plus_code": {
+      "compound_code": "XJFJ+5V Ropaži, Ropažu pagasti, Latvia",
+      "global_code": "9G86XJFJ+5V"
+    },
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "vicinity": "Rīgas iela, Ropaži"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe00094401687"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8230936,
+        "lng": 24.2426321
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.82461088029149,
+          "lng": 24.2437419302915
+        },
+        "southwest": {
+          "lat": 56.8219129197085,
+          "lng": 24.2410439697085
+        }
+      }
+    },
+    "name": "Pellia a Gusto",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2304,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108504294472576383394\">Mihails Jaskevics</a>"
+        ],
+        "photo_reference": "AZose0nOQHrH0_Y8H9FaTlmMpJLH3OCpF6TmIU2kM22nBHDXaoc02bjGbqA_dqS8RDfjF--co8mWFEAtqgIai8WUiReTqDabmohrF98TjipMLGRhXydqQIH5fRtgE9vaBiLDnzRk5R4MLkMHvEJF5KHSyFe6lfKy-ibHdfCJ5lrRpu9chEz6",
+        "width": 3456
+      }
+    ],
+    "place_id": "ChIJlbzwf1bT7kYRYAc2mo_0Uos",
+    "plus_code": {
+      "compound_code": "R6FV+63 Ķekava, Ķekava Parish, Latvia",
+      "global_code": "9G86R6FV+63"
+    },
+    "rating": 3.5,
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 6,
+    "vicinity": "Celtnieku iela 7, Ķekava"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe00094401688"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.71740579999999,
+        "lng": 24.8092404
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.7186870302915,
+          "lng": 24.8105953802915
+        },
+        "southwest": {
+          "lat": 56.7159890697085,
+          "lng": 24.8078974197085
+        }
+      }
+    },
+    "name": "Pie Lailas , IU, Veikals",
+    "photos": [
+      {
+        "height": 3888,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112697464474441358791\">Сергей Июдин</a>"
+        ],
+        "photo_reference": "AZose0kR2JFjF0Ocj0CqKKmjMgdhfsEiN30MA7y4vCfjsF6Wdpq6cMbNwr4l-LQygBPxAjlgBE9-LyC0DHeTk3W_74qiYsiQ8mX1ldg535_Dads7eF9dTUwl6qNp2A8uRa9FUKy451N2uNbUDOU1r9GBX8Q3ZT-ZyS9wkarhjQ_lwVWnLCcI",
+        "width": 5184
+      }
+    ],
+    "place_id": "ChIJMX6Q3A4i6UYRPHmoFT88GIc",
+    "plus_code": {
+      "compound_code": "PR85+XM Lielvārde, Lielvārdes pilsēta, Latvia",
+      "global_code": "9G86PR85+XM"
+    },
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "vicinity": "Lāčplēša iela 20, Lielvārde"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe00094401689"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.7185047,
+        "lng": 24.8131641
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.71988418029151,
+          "lng": 24.8147716302915
+        },
+        "southwest": {
+          "lat": 56.71718621970851,
+          "lng": 24.8120736697085
+        }
+      }
+    },
+    "name": "Bricēni",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1816,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117429477341490512239\">Bricēni beķereja un pica</a>"
+        ],
+        "photo_reference": "AZose0l8aSxjdls_2a7bqZYRVxgBvISvizXHjC_BuJmuBF3dQkzkXWfmA0KL76eQHoPXYsSH6WioHViaG3W9cChe6C-QNOY6H2pcu08_aSr5CLtRtQw83z10zjrI3yhiJrpxnNrJPLHQ4zgxDsrqbLi4KJEsSJDg1z-OJ5E9lv1XOzaEXmSE",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ4zot9nwj6UYRAOEKDI7IRC4",
+    "plus_code": {
+      "compound_code": "PR97+C7 Lielvārde, Lielvārdes pilsēta, Latvia",
+      "global_code": "9G86PR97+C7"
+    },
+    "rating": 4.7,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "meal_takeaway",
+      "bakery",
+      "store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 43,
+    "vicinity": "Skolas iela 10, Lielvārde"
+  },{
+    "_id": {
+      "$oid": "645222efaeffe0009440168a"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.862391,
+        "lng": 24.2681178
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.86380413029149,
+          "lng": 24.2694764302915
+        },
+        "southwest": {
+          "lat": 56.86110616970849,
+          "lng": 24.2667784697085
+        }
+      }
+    },
+    "name": "Pončiku bode",
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103734172567115528442\">АЛЕКСАНДР ЦЕПОТА</a>"
+        ],
+        "photo_reference": "AZose0lKTYTTjxBfHzRHomTbMJaA8aCNLb6YrIgxT6v7lVa1gFCC-1YQbAITwrWAQEu_dqJdZwIYnNrN39Iu2KmUSCk6_ae5ADVsfrRsfesgJ4QIjlVi1gN6sE2FNPrt1yCiMJxFFZQwr1p5PbvhM_kz8EBvE9Pbqj0YTH5sZXw9vZVCr2Kw",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJL2_JOQ_T7kYRyjUhaOgHQik",
+    "plus_code": {
+      "compound_code": "V769+X6 Riga, Rīgas pilsēta, Latvia",
+      "global_code": "9G86V769+X6"
+    },
+    "scope": "GOOGLE",
+    "types": [
+      "bakery",
+      "store",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "vicinity": "Jāņogu iela 108, Latgales priekšpilsēta, Rīga"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc25"
+    },
+    "business_status": "CLOSED_TEMPORARILY",
+    "geometry": {
+      "location": {
+        "lat": 56.8230085,
+        "lng": 24.5938658
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8243972302915,
+          "lng": 24.5952745302915
+        },
+        "southwest": {
+          "lat": 56.8216992697085,
+          "lng": 24.5925765697085
+        }
+      }
+    },
+    "name": "Bocal",
+    "permanently_closed": true,
+    "photos": [
+      {
+        "height": 2160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101603796880193371053\">Normunds Pīlips</a>"
+        ],
+        "photo_reference": "AZose0neLmbZ9VmPvQ8n5KpD7vZXidXBXAPWP-Eu8IGGlwby4bt5IwHS7vrZSuykw-UqH4dHiwHj1Yp6isMQRcCv2fk63r8rzDceuqkLJ8COP0N3yaXzdWruao0TqJ_-qqlGLh4xwGzs9ZuwClAptp4iqIonMx_CQH76XIQhLphTKh7id-c",
+        "width": 3840
+      }
+    ],
+    "place_id": "ChIJ8eUZG18l6UYRpvImVCGiIbs",
+    "plus_code": {
+      "compound_code": "RHFV+6G Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RHFV+6G"
+    },
+    "price_level": 2,
+    "rating": 3.7,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 22,
+    "vicinity": "Mālkalnes prospekts 9-31a, Ogre"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc26"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.81784039999999,
+        "lng": 24.6050847
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8189070802915,
+          "lng": 24.6063669802915
+        },
+        "southwest": {
+          "lat": 56.8162091197085,
+          "lng": 24.60366901970849
+        }
+      }
+    },
+    "name": "Kafejnīca, bārs Ezītis miglā",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114347835820752977388\">Ogres Ezītis miglā</a>"
+        ],
+        "photo_reference": "AZose0mufMIDOU81j4JkBm78uXtGrCJTNKwAeB-GqMiq5pygNVwBWBSPF9tLT_ZotuAuctsS-mvANeoSZllKHCxnX_nkDOlY2_0bFPgc_LByvoZx1Af9A1DTmAi-d3Sgxz2IcckUW2AmFiPkWVdifrS89ETs1fUrg6V7nGB3GhlKnMJj2D10",
+        "width": 1500
+      }
+    ],
+    "place_id": "ChIJ1SvJTl0l6UYRy5hF1Alme4U",
+    "plus_code": {
+      "compound_code": "RJ94+42 Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ94+42"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "cafe",
+      "night_club",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1140,
+    "vicinity": "Brīvības iela 19, Ogre"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc27"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8600546,
+        "lng": 24.3496538
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.86133643029149,
+          "lng": 24.3506692802915
+        },
+        "southwest": {
+          "lat": 56.8586384697085,
+          "lng": 24.3479713197085
+        }
+      }
+    },
+    "name": "Restorāns - vīna bārs \"4 Pēdas\"",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1067,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103849588261960267936\">Restorāns - vīna bārs &quot;4 Pēdas&quot;</a>"
+        ],
+        "photo_reference": "AZose0ltscxQAcBfP7LV4rYP3tB7OIvPzlOcfgR8ZZhi1CB3LHE9_iEzeGrNyng2Dtk_Efz5FC5iJChQBRojJJ6sPz8FR4wwe4L6It7OAaqT7WS622wZjD8y8ajOfIrVHJm_X33FJM5W3ZEcfsXCwvzHHL3ymoKHQEdC_BBiFOmPNuuWJN0",
+        "width": 1600
+      }
+    ],
+    "place_id": "ChIJqUYYORAt6UYRuTyrC8T5jG4",
+    "plus_code": {
+      "compound_code": "V86X+2V Salaspils, Salaspils pilsēta, Latvia",
+      "global_code": "9G86V86X+2V"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "bar",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 952,
+    "vicinity": "Līvzemes iela 2, Salaspils"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc28"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8504295,
+        "lng": 24.34202
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8517977802915,
+          "lng": 24.3433693802915
+        },
+        "southwest": {
+          "lat": 56.8490998197085,
+          "lng": 24.3406714197085
+        }
+      }
+    },
+    "name": "Klondaika",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 4608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118381130190231604109\">kaspars vilcāns</a>"
+        ],
+        "photo_reference": "AZose0kOiyx6tOPSOANmn8PJLqrPKEoEPe6BH_TZTvmD3wUGXwEzH0Ln7NFkrYaqHk1kLvTJOpBYskJqsAuM43bkpn4oIg7nAAQSI7fduA0IbgkZ64knnfusdBIDXvw_Cs3U6hHZbMDA6OiTdh_7YTMqI9mbJfSzbM9soJFprQdbwN6U2kOE",
+        "width": 3456
+      }
+    ],
+    "place_id": "ChIJLfCiKx0t6UYRD9jTJQmQELY",
+    "plus_code": {
+      "compound_code": "V82R+5R Salaspils, Salaspils pilsēta, Latvia",
+      "global_code": "9G86V82R+5R"
+    },
+    "rating": 4.1,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 70,
+    "vicinity": "Maskavas iela 9A, Salaspils"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc29"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.85349679999999,
+        "lng": 24.3350125
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8548863802915,
+          "lng": 24.3365616802915
+        },
+        "southwest": {
+          "lat": 56.8521884197085,
+          "lng": 24.3338637197085
+        }
+      }
+    },
+    "name": "Maruss",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1152,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101237484140805272878\">John Smith</a>"
+        ],
+        "photo_reference": "AZose0l3gQg6xWHoC5nFHuOPuzgz6g748pESq2vgpndc2EySLcw3Q8_DnmA3O3IZbjdAO8-ExL2YbDYkqyuaGzy9odZtL8cVb2ISOZqnP5Uir80PyNzD9EDiRqy5zBMap_UXbjWu_vMsYPIdDc2lua50tqjUzfR1NX1sZFeloQBIjwItfQbI",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJ65Aybxwt6UYRpUrm0mBl1uY",
+    "plus_code": {
+      "compound_code": "V83P+92 Salaspils, Salaspils pilsēta, Latvia",
+      "global_code": "9G86V83P+92"
+    },
+    "rating": 4.3,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "meal_takeaway",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 96,
+    "vicinity": "Skolas iela 5, Salaspils"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc2a"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.97293939999999,
+        "lng": 24.6342246
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.9742616802915,
+          "lng": 24.6353824302915
+        },
+        "southwest": {
+          "lat": 56.9715637197085,
+          "lng": 24.6326844697085
+        }
+      }
+    },
+    "name": "\"LĪGOTNES\" SIA, krodziņš \"Vēja Ligzda\"",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3432,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103357400200134929531\">Agnes Eglite</a>"
+        ],
+        "photo_reference": "AZose0mMVTyyYy345wJPHZiSKMWPW9D_fZMWsHNwdJyVx6hAsJPGoWHvIvVpBKqqvvlqWrT5WYO8KQOYoYx2tvBGcMfcA_MNN7rOttg33KYrazJaD7N4lGfeBeICfhoZDbKShNxPnwKQoBTYk6YoBdUNkc0zeoSkiVHbGDUlsuzMYc4p1dzZ",
+        "width": 2574
+      }
+    ],
+    "place_id": "ChIJEcU4Wvc26UYRnlG07okXXQg",
+    "plus_code": {
+      "compound_code": "XJFM+5M Ropaži, Ropažu pagasti, Latvia",
+      "global_code": "9G86XJFM+5M"
+    },
+    "price_level": 1,
+    "rating": 4.4,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 706,
+    "vicinity": "Rīgas iela 13, Ropaži"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc2b"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8707917,
+        "lng": 24.2714864
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8720915802915,
+          "lng": 24.2727702802915
+        },
+        "southwest": {
+          "lat": 56.8693936197085,
+          "lng": 24.2700723197085
+        }
+      }
+    },
+    "name": "Dūmu Krogs",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 873,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101259280859998745235\">Dūmu Krogs</a>"
+        ],
+        "photo_reference": "AZose0lZ54gmeuh-EyVa5oOWRNiY1yAJXpgHcKt5KryNg_ebkRHdWheIsZxaxUf6WtDZjS4iJsfLSL1UelMaIP9r99ONawLQBK2LGl42BzgDU_thc-Y7KkvLtz3lBi3Pnrj8XPs8PgS1tfMM17mPrX5iRwi9DTsOMgW_7daSAWomdQDxgzT_",
+        "width": 1309
+      }
+    ],
+    "place_id": "ChIJ8e3CpdvS7kYRUB5y7Hw8s48",
+    "plus_code": {
+      "compound_code": "V7CC+8H Riga, Rīgas pilsēta, Latvia",
+      "global_code": "9G86V7CC+8H"
+    },
+    "price_level": 2,
+    "rating": 4.6,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "bar",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 245,
+    "vicinity": "Mārsila iela 58, Latgales priekšpilsēta, Rīga"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc2c"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.820853,
+        "lng": 24.594884
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8222449302915,
+          "lng": 24.5961324802915
+        },
+        "southwest": {
+          "lat": 56.8195469697085,
+          "lng": 24.5934345197085
+        }
+      }
+    },
+    "name": "OlyBet, Sporta Bārs",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107910298936704976733\">Jānis Krastiņš</a>"
+        ],
+        "photo_reference": "AZose0lF8Dnmi5bcwDTGuHgL__YfsZGufvyfpW1SBC87zjL3izWNcQ7DxP-yMjgKJKd18RRGoXx2bTODpvHF5lWPxt6fIuqsiYrZ_K5sWby_4zQUoasmCXQ0x_W_sSsn7by5Oj2C_ae9SuEZmH_J-UataTSDwvrYnn_yFT2uwFOY77p5GftR",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJVy0aQ14l6UYRGfgi2kfdIYI",
+    "plus_code": {
+      "compound_code": "RHCV+8X Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RHCV+8X"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 68,
+    "vicinity": "Mālkalnes prospekts 2B, Ogre"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc2d"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.827034,
+        "lng": 24.6022925
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.82838298029149,
+          "lng": 24.6036414802915
+        },
+        "southwest": {
+          "lat": 56.8256850197085,
+          "lng": 24.6009435197085
+        }
+      }
+    },
+    "name": "Dirsā",
+    "place_id": "ChIJt5Rsdrsl6UYRrg9bHqifeYA",
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "vicinity": "RJG2+QW, Aizupes"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc2e"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8165018,
+        "lng": 24.5970921
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.81776638029149,
+          "lng": 24.5984018302915
+        },
+        "southwest": {
+          "lat": 56.8150684197085,
+          "lng": 24.59570386970849
+        }
+      }
+    },
+    "name": "Joker sporta bārs un spēļu zāle Ogrē, Skolas ielā 6",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 608,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106761732728909942671\">Joker sporta bārs un spēļu zāle Ogrē, Skolas ielā 6</a>"
+        ],
+        "photo_reference": "AZose0lKZc5mPa91itu3q2dIUafEGXT-8M6Hvyz4efRJh93sckwxSrKW1vhovn72qN4kyRKUFb3TwY4_JJjO2PY8GCMVNPuKT-vFeW5cmLNWMhkc9Jv_Kd_Rol_Eia1-Wni82diitvF7my2CRqpxm4Y6j13-i7sUrK4Z_ZHuXAMzQh0KsbbX",
+        "width": 1080
+      }
+    ],
+    "place_id": "ChIJHVOEHeAl6UYRBQhElD-vJ6M",
+    "plus_code": {
+      "compound_code": "RH8W+JR Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RH8W+JR"
+    },
+    "rating": 3.5,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 6,
+    "vicinity": "Skolas iela 6, Ogre"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc2f"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.81786700000001,
+        "lng": 24.6045815
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.81921598029151,
+          "lng": 24.6059304802915
+        },
+        "southwest": {
+          "lat": 56.81651801970851,
+          "lng": 24.60323251970849
+        }
+      }
+    },
+    "name": "O-bars , kafejnica",
+    "opening_hours": {
+      "open_now": false
+    },
+    "place_id": "ChIJ9UL7Tl0l6UYRbXzeftRnDBA",
+    "plus_code": {
+      "compound_code": "RJ93+4R Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ93+4R"
+    },
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "vicinity": "Brīvības iela 19, Ogre"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc30"
+    },
+    "business_status": "CLOSED_TEMPORARILY",
+    "geometry": {
+      "location": {
+        "lat": 56.78418199999999,
+        "lng": 24.6289018
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.78545138029149,
+          "lng": 24.6300882802915
+        },
+        "southwest": {
+          "lat": 56.7827534197085,
+          "lng": 24.6273903197085
+        }
+      }
+    },
+    "name": "Zeltozoli",
+    "permanently_closed": true,
+    "place_id": "ChIJmWwaK3El6UYROroydFHEJp8",
+    "plus_code": {
+      "compound_code": "QJMH+MH Ciemupe, Ogresgals Parish, Latvia",
+      "global_code": "9G86QJMH+MH"
+    },
+    "rating": 5,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1,
+    "vicinity": "Ogresgals Parish"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc31"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.879635,
+        "lng": 24.603189
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8810257302915,
+          "lng": 24.6042990802915
+        },
+        "southwest": {
+          "lat": 56.8783277697085,
+          "lng": 24.6016011197085
+        }
+      }
+    },
+    "name": "Очень вкусно",
+    "place_id": "ChIJ60CZBs8x6UYRGDbBb4onC1o",
+    "plus_code": {
+      "compound_code": "VJH3+V7 Kranciems, Ikšķiles lauku teritorija, Latvia",
+      "global_code": "9G86VJH3+V7"
+    },
+    "rating": 5,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1,
+    "vicinity": "Latvia"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc32"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.85891179999999,
+        "lng": 24.6962498
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.86033323029149,
+          "lng": 24.6978052802915
+        },
+        "southwest": {
+          "lat": 56.8576352697085,
+          "lng": 24.6951073197085
+        }
+      }
+    },
+    "name": "\"Turkalnes Muižas klēts\" SIA",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108615116764595837792\">&quot;Turkalnes Muižas klēts&quot; SIA</a>"
+        ],
+        "photo_reference": "AZose0kkWeDR_XdQS2a77UOJShYYVRC9ejhkczUB0g05mjMHC1NStLmi81Il5QiwVhwWBTHP8djX32X_0rO_OMk-b3tu7Khk3qj2O_euVu729XdzUsf6qdxb0RF88h6yL16LhCbyUtipB1eJ_hw7w_MdZoHV4sX3QC0uf4FjDbQlYBm-t5nD",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJs57irTo76UYR3UfzHMM3WsQ",
+    "plus_code": {
+      "compound_code": "VM5W+HF Turkalne, Ikšķiles lauku teritorija, Latvia",
+      "global_code": "9G86VM5W+HF"
+    },
+    "rating": 4.7,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 104,
+    "vicinity": "Turkalne, Turkalnes Muiža, Tīnūžu, nov"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc33"
+    },
+    "business_status": "CLOSED_TEMPORARILY",
+    "geometry": {
+      "location": {
+        "lat": 56.73982359999999,
+        "lng": 24.7241042
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.7413113802915,
+          "lng": 24.7252684802915
+        },
+        "southwest": {
+          "lat": 56.7386134197085,
+          "lng": 24.7225705197085
+        }
+      }
+    },
+    "name": "kesha sporta bārs",
+    "permanently_closed": true,
+    "place_id": "ChIJpTigCukj6UYR6VsrTYKThM4",
+    "plus_code": {
+      "compound_code": "PPQF+WJ Ķegums, Ķeguma pilsēta, Latvia",
+      "global_code": "9G86PPQF+WJ"
+    },
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "vicinity": "Lāčplēša iela 2, Ķegums"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc34"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.850414,
+        "lng": 24.342065
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8517959802915,
+          "lng": 24.3434146302915
+        },
+        "southwest": {
+          "lat": 56.8490980197085,
+          "lng": 24.3407166697085
+        }
+      }
+    },
+    "name": "Furors, Cafe Fenikss",
+    "opening_hours": {
+      "open_now": true
+    },
+    "place_id": "ChIJAR-oKx0t6UYR2h4wZyvVQE4",
+    "plus_code": {
+      "compound_code": "V82R+5R Salaspils, Salaspils pilsēta, Latvia",
+      "global_code": "9G86V82R+5R"
+    },
+    "rating": 4,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 60,
+    "vicinity": "Maskavas iela 9A, Salaspils"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc35"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.7088773,
+        "lng": 24.7587879
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.7101873802915,
+          "lng": 24.7601147302915
+        },
+        "southwest": {
+          "lat": 56.70748941970851,
+          "lng": 24.7574167697085
+        }
+      }
+    },
+    "name": "Pagrieziens uz \"ŅEGAS AVOTIŅŠ\"",
+    "photos": [
+      {
+        "height": 1288,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100028998321413782701\">Valdis Mikelsons</a>"
+        ],
+        "photo_reference": "AZose0nqAT33MOzmaXe7d3aowIHjMI7w6btZa7I_R6ymzmU4tS9s7KWh_oieDiL0OB2qwDS2Sc6Thp-TKUY7icaBBRjPaZhrSSsIskGur0phJ5gvtemkmWaKSZjVqySk7c7RFrVhnexmLbuSTNzFPsnf3Aqon672J-QGUsTK5iKnXny0LQKG",
+        "width": 966
+      }
+    ],
+    "place_id": "ChIJL7pUKMYh6UYRNXAz0ragxZ4",
+    "plus_code": {
+      "compound_code": "PQ55+HG Lielvārde, Lielvārdes pilsēta, Latvia",
+      "global_code": "9G86PQ55+HG"
+    },
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2,
+    "vicinity": "P85"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc36"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8528101,
+        "lng": 24.26541049999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8541940302915,
+          "lng": 24.2666982802915
+        },
+        "southwest": {
+          "lat": 56.8514960697085,
+          "lng": 24.2640003197085
+        }
+      }
+    },
+    "name": "Bars DOLE",
+    "photos": [
+      {
+        "height": 3648,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107569358651774976002\">Юля Yuly</a>"
+        ],
+        "photo_reference": "AZose0kUPry6V9btfJzubX5NHQpFzYwxeGP3sXyGBHeRfpwAc3rTu_akrZ6ml_5V1azuodC9m0cu9OUM3qcpnrABepDAJxGtdI38vWFmyV8s_dbNyHEQZ9rnXajvk3rBVrUfdxsROW_f_cFkX_ZD1F6XhqGLRd_uGleTyAmB2WdLgGjw1czr",
+        "width": 2736
+      }
+    ],
+    "place_id": "ChIJZ4XidnbT7kYRNNxYBDyzfE0",
+    "rating": 3,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2,
+    "vicinity": "V738+35, Rumbenieši"
+  },{
+    "_id": {
+      "$oid": "645222fe4f0727dd4721dc37"
+    },
+    "business_status": "CLOSED_TEMPORARILY",
+    "geometry": {
+      "location": {
+        "lat": 56.828336,
+        "lng": 24.2383401
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.82962858029151,
+          "lng": 24.2398110802915
+        },
+        "southwest": {
+          "lat": 56.82693061970851,
+          "lng": 24.2371131197085
+        }
+      }
+    },
+    "name": "Melnais kaķis",
+    "permanently_closed": true,
+    "place_id": "ChIJy2ShUuTT7kYRSjpm3IphcWo",
+    "plus_code": {
+      "compound_code": "R6HQ+88 Ķekava, Ķekava Parish, Latvia",
+      "global_code": "9G86R6HQ+88"
+    },
+    "rating": 3,
+    "scope": "GOOGLE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2,
+    "vicinity": "Nākotnes iela 2, Ķekava"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191ea"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8708835,
+        "lng": 24.2748944
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8721325802915,
+          "lng": 24.27608038029151
+        },
+        "southwest": {
+          "lat": 56.8694346197085,
+          "lng": 24.2733824197085
+        }
+      }
+    },
+    "name": "Visdari",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1786,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111582767568742870368\">Gundars Krakops</a>"
+        ],
+        "photo_reference": "AZose0mo9jbAQkcR5UO8HZwo5L851tianz1IknqFZxz_L7I-2qMNL_sFph6fWbyaPJJKfvsaaSh0B9FSsuHGgN4YGx747wDLK_Y9eECWs33bvKambmuWeWhMaY9MFAwAdiTvLu3TW6ctFupfGdsfovTLJ7k2Dugm39fhtk0D_GBppjKRkgiY",
+        "width": 2502
+      }
+    ],
+    "place_id": "ChIJ5yxi9trS7kYRJYSsEIjndhI",
+    "plus_code": {
+      "compound_code": "V7CF+9X Rumbula, Stopiņu pagasts, Latvia",
+      "global_code": "9G86V7CF+9X"
+    },
+    "rating": 4.3,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "cafe",
+      "meal_takeaway",
+      "spa",
+      "food",
+      "health",
+      "lodging",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1343,
+    "vicinity": "Maskavas iela 509, Rumbula"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191eb"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.84204200000001,
+        "lng": 24.5014468
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8433835302915,
+          "lng": 24.5029206802915
+        },
+        "southwest": {
+          "lat": 56.8406855697085,
+          "lng": 24.5002227197085
+        }
+      }
+    },
+    "name": "Dainas, kafejnīca",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2250,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116943420728833226366\">alu alu</a>"
+        ],
+        "photo_reference": "AZose0nKVSBpy_RdIQJO3ww-ZcNzn-DIT8-IstGlWBt6lRHHaKX2NcIslBxdZxaLJZmAaHjgCahmTtTIIaV8UipA_xgVC-lpfPb2efFhd_khqgxs26LWrM6u532w-zRYl5jUlOn2DaI0bXXfeykkgcCnrJYEL3d-WLpPwevNwIAG5qvyXuo",
+        "width": 4000
+      }
+    ],
+    "place_id": "ChIJt-33CVMu6UYRKMggPOlWeg0",
+    "plus_code": {
+      "compound_code": "RGR2+RH Ikšķile, Ikšķiles pilsēta, Latvia",
+      "global_code": "9G86RGR2+RH"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 616,
+    "vicinity": "Tīnūžu šoseja 3, Ikšķile"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191ec"
+    },
+    "business_status": "CLOSED_TEMPORARILY",
+    "geometry": {
+      "location": {
+        "lat": 56.8263092,
+        "lng": 24.5960612
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.82765818029149,
+          "lng": 24.5974101802915
+        },
+        "southwest": {
+          "lat": 56.82496021970849,
+          "lng": 24.5947122197085
+        }
+      }
+    },
+    "name": "Giants trail, adventure park",
+    "permanently_closed": true,
+    "photos": [
+      {
+        "height": 1350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112448650648006664094\">Milžu taka, Šķēršļu parks</a>"
+        ],
+        "photo_reference": "AZose0miYrawP_3ZXcdNzqXn_JAi0PACiCcPup3XYrhnHy7m0d8RBIFvQs0bT5OcUexqE3GnPius6KkGGLdQGnLenb_1L-JSe2bNwbHRJCClE8rytpiBRVFFwKHux-6jDY5G3n2QhGZbSd1kVGHNVdDoTHya_1ZbiftA88wKrJjnLTTSjZnm",
+        "width": 1080
+      }
+    ],
+    "place_id": "ChIJxWxA31gl6UYRPCI9h2QRsY8",
+    "plus_code": {
+      "compound_code": "RHGW+GC Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RHGW+GC"
+    },
+    "rating": 4.6,
+    "scope": "GOOGLE",
+    "types": [
+      "tourist_attraction",
+      "amusement_park",
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 550,
+    "vicinity": "\"Ogres Zilie kalni\", Dabas parks, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191ed"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8179545,
+        "lng": 24.6055297
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8195303802915,
+          "lng": 24.6070395802915
+        },
+        "southwest": {
+          "lat": 56.8168324197085,
+          "lng": 24.6043416197085
+        }
+      }
+    },
+    "name": "M.Pures beķereja",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3096,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108653639769104501343\">Olga Anastasjeva</a>"
+        ],
+        "photo_reference": "AZose0nkJB9zLOjGfzUES05Py8WY7Rzr9jdvK88pgaQM5i3oDkUqWNC11xA-p5pr0ouEwpv-_MGSDtUkJ5BcT1QZ26avykPL_QETcBmgMjc6pZZB6EMsUIDQZVNpLAnhmR1ACcnQilUxN2WsOoda1A6xTD-PslMb4IKDAjS1MFR5Gg9_4aCO",
+        "width": 5504
+      }
+    ],
+    "place_id": "ChIJd6ZYSl0l6UYRst8pu_Eo9e4",
+    "plus_code": {
+      "compound_code": "RJ94+56 Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ94+56"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 341,
+    "vicinity": "Brīvības iela 21, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191ee"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.79260960000001,
+        "lng": 24.6254835
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.79388958029151,
+          "lng": 24.6268957802915
+        },
+        "southwest": {
+          "lat": 56.79119161970851,
+          "lng": 24.6241978197085
+        }
+      }
+    },
+    "name": "Fazer Latvija, SIA",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118065959719449632740\">Fazer Latvija, SIA</a>"
+        ],
+        "photo_reference": "AZose0lkYwaTTjtTpp0YwNFxFOwqrGeZhYyHWoYjwFFMQ8EOv-bS0NXzBUu0VLmP2Kj9o34peDV4jJHceeCxjltvmmi-weGs4AhGp0XQbkM1jpcl_ah9XVLB_KiFKlwlT62-m5yHu536fSDg6jGUuJ9HX-kqPNtDPYrvFvM4PhzedR-tuBLU",
+        "width": 3264
+      }
+    ],
+    "place_id": "ChIJLWJXcAYl6UYRIuwfo64qwT4",
+    "plus_code": {
+      "compound_code": "QJVG+25 Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86QJVG+25"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 122,
+    "vicinity": "Druvas iela 2, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191ef"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8394359,
+        "lng": 24.5033133
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8407579302915,
+          "lng": 24.5047822302915
+        },
+        "southwest": {
+          "lat": 56.8380599697085,
+          "lng": 24.50208426970849
+        }
+      }
+    },
+    "name": "Ozoliņa konditoreja",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106942837914039895911\">Mario</a>"
+        ],
+        "photo_reference": "AZose0mOzqLgUAL9QGi7m1CWjHeEX4vUKX0msE3jVsDWXZVN4IL94QNNjxVpCgpxJVEd4k8sdwqdPZ1AXQbLs4LvwicD0d14HQXy5RrXYQU_wUDTTsK6JEiV_LV7-IwTBceG1o4XAquOsCiVOjy9VyrAebFxP74SD5FfMslXLTduoGbgWXzf",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJm9wGwTcu6UYRXZaGEngVPwg",
+    "plus_code": {
+      "compound_code": "RGQ3+Q8 Ikšķile, Ikšķiles pilsēta, Latvia",
+      "global_code": "9G86RGQ3+Q8"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 734,
+    "vicinity": "Melioratoru iela 20, Ikšķile"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191f0"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8424127,
+        "lng": 24.5011238
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.84381168029151,
+          "lng": 24.5025469802915
+        },
+        "southwest": {
+          "lat": 56.84111371970851,
+          "lng": 24.4998490197085
+        }
+      }
+    },
+    "name": "\"Dainu gardumi\" SIA, kafejnīca - veikals \"Gardumi\"",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2322,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104328818197371930874\">Silva Dzene</a>"
+        ],
+        "photo_reference": "AZose0nyym0fn4yNPy57oALuEbhfmk1GfALO1helZNXs23JTVtc8hoS0Agnf7LLZuQgEsp4J_eUpCVU52va1G78yVXgXij-bq9KM3p4va23bhTj6PzgHudVVek8M2gOXxCzYaA9-RXkIA-NpCA3yL6zsO82V0b15yVA-0U2JTVz1iHGDl_dM",
+        "width": 4128
+      }
+    ],
+    "place_id": "ChIJDWoB0jku6UYRWNwiyyBB-Z0",
+    "plus_code": {
+      "compound_code": "RGR2+XC Ikšķile, Ikšķiles pilsēta, Latvia",
+      "global_code": "9G86RGR2+XC"
+    },
+    "price_level": 2,
+    "rating": 4.1,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 560,
+    "vicinity": "Tīnūžu šoseja 3а"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191f1"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.858161,
+        "lng": 24.3505829
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8594387302915,
+          "lng": 24.3518071302915
+        },
+        "southwest": {
+          "lat": 56.8567407697085,
+          "lng": 24.3491091697085
+        }
+      }
+    },
+    "name": "Rogas kafejnīca",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 8000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115566348320378272322\">Jekaterina Uglovska</a>"
+        ],
+        "photo_reference": "AZose0kEWiHOeOMqiveOBK2lo3fsWOZ2AJxH-O8Hw1LODDXDw8XeOrTPShunTZbMUAucuiykaDowBg42LrODOnqt103mKQPjEguKd3u6mAjVt-MzAizBCnZKoOjFWgdaQAjMKaaPvUwhjCRvJ2P7cVz5EdyP0brEaqOFVRTZUOULw2wwVBeN",
+        "width": 6000
+      }
+    ],
+    "place_id": "ChIJc68V-Q8t6UYRb7LvHImcZs8",
+    "plus_code": {
+      "compound_code": "V952+76 Salaspils, Salaspils pilsēta, Latvia",
+      "global_code": "9G86V952+76"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 375,
+    "vicinity": "Līvzemes iela, Salaspils"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191f2"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.7451849,
+        "lng": 24.35301849999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.7464465802915,
+          "lng": 24.3542537802915
+        },
+        "southwest": {
+          "lat": 56.7437486197085,
+          "lng": 24.3515558197085
+        }
+      }
+    },
+    "name": "BajaRes",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115144263556329389468\">Vb In</a>"
+        ],
+        "photo_reference": "AZose0mLT9S225Avj1vMI9D1QbTOEVHQFEBm2A2mB2Bl2EP3Z1QYHyKsDe81Iqw1_01b1dqsKItLh5d11955FwkvlkFcK1QsZc1cdgp1IbfLdRP6mkTwVEYmrlxeDXPTZyNolXqfKD8oVeF4jkz4o427jJ6EqHQjuXiOWdXTaJ7HITylxlP_",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJrbMFb4Ep6UYR5-rsxmR86fs",
+    "plus_code": {
+      "compound_code": "P9W3+36 Baldone, Baldones pilsēta, Latvia",
+      "global_code": "9G86P9W3+36"
+    },
+    "rating": 4.3,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 9,
+    "vicinity": "Baldone"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191f3"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.96976120000001,
+        "lng": 24.4811144
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.9711684802915,
+          "lng": 24.4825380302915
+        },
+        "southwest": {
+          "lat": 56.9684705197085,
+          "lng": 24.4798400697085
+        }
+      }
+    },
+    "name": "Zaķu krogs",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112559950729643253749\">Austris Z</a>"
+        ],
+        "photo_reference": "AZose0nSVF2hEN0JZGwO4CrgJgv4u8wDrBsYtosFMz_ykLF7YV14pmyJGUGjQzt7Z7l08fIw4Gpc4yQwxoDlnscKUQa0nznGqtLiSJ2go5WDL9a5WcxLVPSWn5HamLaYAO36DsFT0nH9SUZ3MzJNJVVpAFMZo5XZJI_3VF0ZKMnJJNc3EW--",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJR-BwXIc06UYRwS6qIQ5IiTU",
+    "plus_code": {
+      "compound_code": "XF9J+WC Zaķumuiža, Ropažu pagasti, Latvia",
+      "global_code": "9G86XF9J+WC"
+    },
+    "price_level": 1,
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 829,
+    "vicinity": "Mežāres, Zaķumuiža"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191f4"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.71786179999999,
+        "lng": 24.8096405
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.7191298802915,
+          "lng": 24.8111076802915
+        },
+        "southwest": {
+          "lat": 56.7164319197085,
+          "lng": 24.8084097197085
+        }
+      }
+    },
+    "name": "Panna",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102176348060560202596\">Santa Rubene</a>"
+        ],
+        "photo_reference": "AZose0l7Z7cart7ReOa42WNPVreAK7hqf1WCN0sWYRfeJL-ky_u6xSKbYz4xXHF6ZlyAHhiV8FY7xCWwEQASzt6fnXyXW1gMN5KzbRoT8D4jXdndUz8EhY4x6lpnGy8qyWXca61JG-HUoa9OpMUJWI2jNv1AQaL2qMXR4yacmrttcClqXIcT",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJZW1Yxg4i6UYRLODQiEtkhaA",
+    "plus_code": {
+      "compound_code": "PR95+4V Lielvārde, Lielvārdes pilsēta, Latvia",
+      "global_code": "9G86PR95+4V"
+    },
+    "price_level": 1,
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1601,
+    "vicinity": "Ausekļa iela 14a, Lielvārde"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191f5"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8245252,
+        "lng": 24.2448221
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.82583993029149,
+          "lng": 24.24589123029151
+        },
+        "southwest": {
+          "lat": 56.82314196970849,
+          "lng": 24.2431932697085
+        }
+      }
+    },
+    "name": "Kalnakrogs",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103877781686895104134\">Maris Prieditis</a>"
+        ],
+        "photo_reference": "AZose0mQZk1i7x5cJAnyF5RupUcwgk_fgI1bORllBiAPDbOBo8VUrIbNaOwBCETUZL0IgoRqTeoe9Ir0enuIbSgodzLrp8yv09hgHFkXNZ_fqWDxW3_96Tc6uEftW8v-EtoFbNNkMW7EBu_Tc6wSHRFpoeFDEtpNBch0Opeiu2ZjR9i1lNN6",
+        "width": 1920
+      }
+    ],
+    "place_id": "ChIJdeUuPFTT7kYRFalHQAVH-zY",
+    "plus_code": {
+      "compound_code": "R6FV+RW Odukalns, Ķekava Parish, Latvia",
+      "global_code": "9G86R6FV+RW"
+    },
+    "price_level": 2,
+    "rating": 4.2,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1195,
+    "vicinity": "Rīgas iela 103, Odukalns"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191f6"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8217947,
+        "lng": 24.5965844
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.82320513029151,
+          "lng": 24.5979896302915
+        },
+        "southwest": {
+          "lat": 56.82050716970851,
+          "lng": 24.5952916697085
+        }
+      }
+    },
+    "name": "Ciemos",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1960,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100092414890291998974\">Mairita Cīrule-Vilcāne</a>"
+        ],
+        "photo_reference": "AZose0nJahBrXOAz0O2pjJ9e7DOQW5lnM8OhEQXB6BSZgBNnkeNgSV1HvGNJrMHznbrICD_9wYOMkH-diHwTKJIYPSYeo0kwqhX7dZUxYwRF7wghjgxHGYJp3GMjikYfUiiEJIc1S-5zBfubH5v5tfgOdaJp-ZshD20BDyIOP5jwdkkhz5zY",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJ4wtBePEl6UYRU9wqQuxf9dY",
+    "plus_code": {
+      "compound_code": "RHCW+PJ Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RHCW+PJ"
+    },
+    "rating": 4.1,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 105,
+    "vicinity": "Mālkalnes prospekts 4, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191f7"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8236222,
+        "lng": 24.5994413
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8249654802915,
+          "lng": 24.6007830802915
+        },
+        "southwest": {
+          "lat": 56.8222675197085,
+          "lng": 24.5980851197085
+        }
+      }
+    },
+    "name": "Bubble Gum, Ogre. Kebab kafejnīca.",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 777,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113430595468490284011\">Bubble Gum, Ogre. Kebab kafejnīca.</a>"
+        ],
+        "photo_reference": "AZose0lX2ncTACtt4rdrSi5KpkNRx-QrAsWM7QhH_s7EHQez6nSgE0zGLzh5I78OtAiwJEN1h0xcdgVkaIUWyHJkm326jioaQH3TSqBdY31hj9dob52vP3aqJzrR-ZKGgGvFJ0JxDCw_CTYvDNlN7yJsa04YZdkgoVniISW6Cl2KXCKElDRW",
+        "width": 1600
+      }
+    ],
+    "place_id": "ChIJQdpr2oYl6UYRh5pQsCrMB90",
+    "plus_code": {
+      "compound_code": "RHFX+CQ Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RHFX+CQ"
+    },
+    "rating": 3.7,
+    "scope": "GOOGLE",
+    "types": [
+      "meal_delivery",
+      "cafe",
+      "meal_takeaway",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 177,
+    "vicinity": "Mālkalnes prospekts 34, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191f8"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.816747,
+        "lng": 24.5850138
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8181809302915,
+          "lng": 24.5863919802915
+        },
+        "southwest": {
+          "lat": 56.8154829697085,
+          "lng": 24.5836940197085
+        }
+      }
+    },
+    "name": "Ozoliņa Konditoreja, SIA",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103175811652544842625\">Jon Dep</a>"
+        ],
+        "photo_reference": "AZose0nrnPV5adhkSNwK2hlBEE0SNM_OtKyk3ghPy4T4-jLHRlBVymtyKdGOy3CLqh_7B3sxn6ssf1d_NJMaIIWDxBdn6PpViHQwS3ZnUAqeKWBfn95dQBiAbPStlZOA0omztOjpUjrQ2ryWAcs_gvjxXNJdI3rAAmbYRlNzMeOt1Fh-N2bS",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJjRa7w2El6UYR9KcbtgoNnP0",
+    "plus_code": {
+      "compound_code": "RH8P+M2 Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RH8P+M2"
+    },
+    "rating": 3.8,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 37,
+    "vicinity": "Rīgas iela 23, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191f9"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8165981,
+        "lng": 24.5988094
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8180209302915,
+          "lng": 24.6002524302915
+        },
+        "southwest": {
+          "lat": 56.8153229697085,
+          "lng": 24.5975544697085
+        }
+      }
+    },
+    "name": "Divitomati",
+    "place_id": "ChIJ9yZS5Ucu6UYRgudR-QcXOQM",
+    "plus_code": {
+      "compound_code": "RH8X+JG Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RH8X+JG"
+    },
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "vicinity": "Skolas iela 4, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452230eb8e7a421493191fa"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8161645,
+        "lng": 24.5997767
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8173664302915,
+          "lng": 24.6008913302915
+        },
+        "southwest": {
+          "lat": 56.8146684697085,
+          "lng": 24.5981933697085
+        }
+      }
+    },
+    "name": "Uzkodas",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100724914791311758143\">Dzintars Vanags</a>"
+        ],
+        "photo_reference": "AZose0nGqUNYRD8DIO2objy_xIPdclbkN3RX49xWljWOhZaaf3eYY_O5aaKQ9P3ISYVtFHGrlCoMpnTSjq3an9iN9CEDpVNQCzCji-4aRp6P-paL1CoKBIEeqMmLRR7ZeWyPOHArWmvGC5w_cNPX6fTP-v376GaHtq0mQvBgvjqfuUMA_qJd",
+        "width": 1599
+      }
+    ],
+    "place_id": "ChIJVYxpo2cl6UYRZl73wU2CPo0",
+    "plus_code": {
+      "compound_code": "RH8X+FW Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RH8X+FW"
+    },
+    "price_level": 2,
+    "rating": 3.9,
+    "scope": "GOOGLE",
+    "types": [
+      "cafe",
+      "food",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 14,
+    "vicinity": "Skolas iela 2A, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05ca"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.9694343,
+        "lng": 24.3655786
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.97074978029149,
+          "lng": 24.3671811802915
+        },
+        "southwest": {
+          "lat": 56.9680518197085,
+          "lng": 24.3644832197085
+        }
+      }
+    },
+    "name": "Laguna House",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105074816442217946768\">Laguna House</a>"
+        ],
+        "photo_reference": "AZose0nPTLPqbJpFZ85NAFaVa5ozllPfDSPHow0Us6P7U-Z9ZcH6AyeAlvwlI3YZBaAGX81PpcREogwae9jPvsSvm_IAwCGwNu2S2TL_GfZHZ8ewGwZ0QRfHY_niVggLJhTLCqcEJ4oxvbyaIZFsGrv4FqJ-yZCIKjVmMPiyRomxtlid8j2t",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJD3ZbXrnM7kYRsDOILtKn-OU",
+    "plus_code": {
+      "compound_code": "X998+Q6 Sunīši, Garkalnes novads, Latvia",
+      "global_code": "9G86X998+Q6"
+    },
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "lodging",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 205,
+    "vicinity": "Ezerkrasta iela 17, Sunīši"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05cb"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.748401,
+        "lng": 24.7184669
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.74965443029149,
+          "lng": 24.7199566302915
+        },
+        "southwest": {
+          "lat": 56.74695646970849,
+          "lng": 24.71725866970849
+        }
+      }
+    },
+    "name": "Austra-LT",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103072930925490399497\">Gints Veiss</a>"
+        ],
+        "photo_reference": "AZose0lkvBRHeI36vhmPH9iGQVLiX_hPeIogjjIAHJ0AVZ16hPY_o4TZha4qVKSIte7f7qMrlsIEMcyelLyZ-XB_VkjzYKXNd0yPUAA4dH2W3V7aQlTAfJjN68EVLP-L-BGWwJzboAFGDl1oAi81Lo3ii4BWintZcW83AiMJAinfdY4-KU12",
+        "width": 4496
+      }
+    ],
+    "place_id": "ChIJy6nEXZQj6UYR_mhjt5LUPwU",
+    "plus_code": {
+      "compound_code": "PPX9+99 Ķegums, Ķeguma pilsēta, Latvia",
+      "global_code": "9G86PPX9+99"
+    },
+    "price_level": 1,
+    "rating": 3.8,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 82,
+    "vicinity": "Celtnieku iela 1K, Ķegums"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05cc"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.81829029999999,
+        "lng": 24.6056508
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.81967743029149,
+          "lng": 24.6071660802915
+        },
+        "southwest": {
+          "lat": 56.81697946970849,
+          "lng": 24.6044681197085
+        }
+      }
+    },
+    "name": "Niko, kafejnīca",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103175811652544842625\">Jon Dep</a>"
+        ],
+        "photo_reference": "AZose0kDK_pkbzSb4-5xnSnkURiXJuslR5a5bRHtIvSoSg0IweMfUHnoqo167b4IOBoDKKBrBbu9QdRSn0HUYXyL8FfxxKkhUKh3_9Z233OKrts4WhtBdipX7nUlcWfBFTkpVppNqMdnn2s05tTofeu5mUCKMWGojeLOWlh03xlkD-JIFJyQ",
+        "width": 3000
+      }
+    ],
+    "place_id": "ChIJhe1atUIl6UYR8Ma5cyKGcMg",
+    "plus_code": {
+      "compound_code": "RJ94+87 Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ94+87"
+    },
+    "price_level": 1,
+    "rating": 4.6,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1440,
+    "vicinity": "Brīvības iela 23, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05cd"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8166503,
+        "lng": 24.5852203
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.81810178029151,
+          "lng": 24.58664838029151
+        },
+        "southwest": {
+          "lat": 56.81540381970851,
+          "lng": 24.5839504197085
+        }
+      }
+    },
+    "name": "Čili Pica TC \"Dauga\"",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115243244269214810756\">Julijs Kuzmins</a>"
+        ],
+        "photo_reference": "AZose0mjxfYronNSL8d8YhAMhem80J-qXj3OLeB4F-xAs0DD9pw261NIYtXzyAfSU7hYbQGhNZqLBUEcXekD3JoBgT4E4IqHuHhPoLeHnqrvetqBOlFvDVYEmhx3ZjvWo34z2GTiuzgCff2oDtRsycLUaEAaO5cFYkdt85LzipkyUdpzhFiS",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJPcplEWEl6UYR3_wP7FJcFDU",
+    "plus_code": {
+      "compound_code": "RH8P+M3 Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RH8P+M3"
+    },
+    "price_level": 2,
+    "rating": 3.7,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2507,
+    "vicinity": "Rīgas iela 23, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05ce"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.744549,
+        "lng": 24.68511
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.74596168029149,
+          "lng": 24.6864874302915
+        },
+        "southwest": {
+          "lat": 56.7432637197085,
+          "lng": 24.6837894697085
+        }
+      }
+    },
+    "name": "Oškrogs",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 476,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113742212069308349509\">Oškrogs</a>"
+        ],
+        "photo_reference": "AZose0l6Gaub6M90_5ZURy2Aqjfn0TAUbGjsXa61uTRRXVpNDJ9p6isCB9JhtLaYbkGScoCL95ASpvWIdN4ogTbEkurgrVsDHFpk0hrpS3IJkbFm2R-Kmw1OZfs0OJVtoMpmgjVXPqT4icMogbOb6ui-ZSaNGMgP_otLUFDcRuD004g1O6o3",
+        "width": 777
+      }
+    ],
+    "place_id": "ChIJUy53YPYj6UYRTyFOz8sX7GY",
+    "plus_code": {
+      "compound_code": "PMVP+R2 Rutki, Tome Parish, Latvia",
+      "global_code": "9G86PMVP+R2"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "lodging",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1272,
+    "vicinity": "Oši, Tomes pag., Ķeguma nov"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05cf"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.81964300000001,
+        "lng": 24.609404
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8211286802915,
+          "lng": 24.6107114302915
+        },
+        "southwest": {
+          "lat": 56.8184307197085,
+          "lng": 24.6080134697085
+        }
+      }
+    },
+    "name": "Štoka pica , OGRE",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1536,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104258081417334509575\">Renărs Ālers</a>"
+        ],
+        "photo_reference": "AZose0l-QBvDn6ojyK_K7_CNKVLMRbnB8ogUSdu-2StN1Yg3a5jku9jOfDzQhMZ3yExGEzt1xhFIRAYvovRr-ZX2h-3ZCrLkWGUFlbGXgV1ioTBz_tAX1msam60fVe_2vj6orFSVzq7bgFLXkbG3vKdS09eqlsfxG2J1O1wPmc-9g0uVwD6N",
+        "width": 2016
+      }
+    ],
+    "place_id": "ChIJP58g_l0l6UYRD2wKGx3G9nw",
+    "plus_code": {
+      "compound_code": "RJ95+VQ Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ95+VQ"
+    },
+    "price_level": 2,
+    "rating": 4.3,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 94,
+    "vicinity": "Brīvības iela 50, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05d0"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8186222,
+        "lng": 24.6058916
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8198700302915,
+          "lng": 24.6073817802915
+        },
+        "southwest": {
+          "lat": 56.8171720697085,
+          "lng": 24.60468381970849
+        }
+      }
+    },
+    "name": "Kalnakraučas",
+    "opening_hours": {
+      "open_now": true
+    },
+    "place_id": "ChIJeWWhM10l6UYR2n7hZDS02Q8",
+    "plus_code": {
+      "compound_code": "RJ94+C9 Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ94+C9"
+    },
+    "rating": 3,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 8,
+    "vicinity": "Brīvības iela 25, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05d1"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.81799549999999,
+        "lng": 24.6054202
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8195360802915,
+          "lng": 24.6069875302915
+        },
+        "southwest": {
+          "lat": 56.8168381197085,
+          "lng": 24.6042895697085
+        }
+      }
+    },
+    "name": "LaCasa Ogre",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1365,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100247121954799555866\">LaCasa Ogre</a>"
+        ],
+        "photo_reference": "AZose0mThttIbTCQAnWGZ0gNopqNA4_zid6bkilF5dvDtbp69keKIrVBCylPiI5F3brGWxtfl2naubKDzx4pepl4LN2MsD_CXdHyH2QuQlpoJuv2AYY9p1K7ytIuAVbP5DsKW_UceETdmSsabAE88e2oy-Mo_4QuOSvZAfZ5VPU7QO7RLO8_",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJF20bS10l6UYRJuHKm1fHQc4",
+    "plus_code": {
+      "compound_code": "RJ94+55 Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ94+55"
+    },
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 169,
+    "vicinity": "Brīvības iela 21, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05d2"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.817421,
+        "lng": 24.6059947
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8187714302915,
+          "lng": 24.60673385
+        },
+        "southwest": {
+          "lat": 56.8160734697085,
+          "lng": 24.60377725
+        }
+      }
+    },
+    "name": "Senjorita Kukū, kafejnīca",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104527437274890391102\">Dmitrijs Litvinenko</a>"
+        ],
+        "photo_reference": "AZose0nougmA7wbmnpHqfxVusvqUJLX1ZH9RTLVf0GxcQM0XE2fwgyN7fh82wj05UUxlTUh46dU3SAP8W9DOmjQKbRod4axo0j0Jeu9u4QI5nHUXhJq3FrfdSjjTdJgWs_-qvniJQyUkTn7k1j_BOFM1uDvvsy9PSqsSyXyex2MhpAtU8XaY",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJnfmYsUIl6UYReL7T5wTSu9I",
+    "plus_code": {
+      "compound_code": "RJ84+X9 Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ84+X9"
+    },
+    "price_level": 2,
+    "rating": 4.6,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 891,
+    "vicinity": "Brīvības iela 32, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05d3"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8148682,
+        "lng": 24.6023546
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8162685802915,
+          "lng": 24.6035824302915
+        },
+        "southwest": {
+          "lat": 56.8135706197085,
+          "lng": 24.60088446970849
+        }
+      }
+    },
+    "name": "SierŠtelle Studio",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1394,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100945555320839563851\">SierŠtelle Studio</a>"
+        ],
+        "photo_reference": "AZose0k1PD_2WISIMsUd8jUWUUA_21Ljx8nljwJt_E6lLBC1KOTWFOQiCU1G6gTghRmV39nvtmmloLOHb6V9NxF5a31Hx2OVSaFJ7hIxF01ZP7Qrw1RxE-sHQUsY7qsXLo77fi3DuZAoDGiqjS5t3oRGW_c-Pkv5ojzVToJ_eyDnq-9QQ6Yz",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJdZNH1mcl6UYRaQhaSkzXuac",
+    "plus_code": {
+      "compound_code": "RJ72+WW Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ72+WW"
+    },
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 73,
+    "vicinity": "Brīvības iela 12, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05d4"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8134051,
+        "lng": 24.60425619999999
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8146810802915,
+          "lng": 24.6055062302915
+        },
+        "southwest": {
+          "lat": 56.8119831197085,
+          "lng": 24.60280826970849
+        }
+      }
+    },
+    "name": "Picas meistars, picērija",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115023384920377107971\">Picas meistars</a>"
+        ],
+        "photo_reference": "AZose0lv4fqqQyPMd9hppjHZjCNzLBswwsjePHG-nSiqknoFxRoQ46Pl9nUSUqtnrsfdKuDcbEaM4Zmgc4fG49ruFNXPgmgpexzDuRjqwm8dd4dcRNKxNO4TKgy0H2R4l7V7a6Bx2auYdtTDwpPrg5p356YHwggZANYXnP3puN5c6uvsM0QV",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ9zjL82gl6UYRLpHe4qJ0gTo",
+    "plus_code": {
+      "compound_code": "RJ73+9P Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86RJ73+9P"
+    },
+    "price_level": 2,
+    "rating": 4.5,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 482,
+    "vicinity": "5001, Ķiršu iela 5, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05d5"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8233197,
+        "lng": 24.4985471
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8247220302915,
+          "lng": 24.5000118302915
+        },
+        "southwest": {
+          "lat": 56.8220240697085,
+          "lng": 24.49731386970849
+        }
+      }
+    },
+    "name": "Brandīns, restorāns",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 1367,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112884380586856133563\">Brandīns, restorāns</a>"
+        ],
+        "photo_reference": "AZose0lSdaL1WyFjxgJ9xRrjNTErh4MWNz0CgOH3qMhxwq8CcD239mXHQZbOojR90Zyvop5LKDhXrxK-x4HLPWn8vMKk2gygIbMHB_bMpQhk64vZfmFnnw75IDRebu-l_BNsQNcUXCrMQixuMmAc0P0N9S_YooV6vsDtt0jNPeXthqZOzjxb",
+        "width": 2048
+      }
+    ],
+    "place_id": "ChIJyfk6t1Mu6UYR8rtSvTRmkFw",
+    "plus_code": {
+      "compound_code": "RFFX+8C Ikšķile, Ikšķiles pilsēta, Latvia",
+      "global_code": "9G86RFFX+8C"
+    },
+    "price_level": 3,
+    "rating": 4.6,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 671,
+    "vicinity": "Rīgas iela 18, Ikšķile"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05d6"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.719145,
+        "lng": 24.7301055
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.7209364302915,
+          "lng": 24.7319602802915
+        },
+        "southwest": {
+          "lat": 56.7182384697085,
+          "lng": 24.72926231970849
+        }
+      }
+    },
+    "name": "Ķeguma Puduri",
+    "photos": [
+      {
+        "height": 650,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108586725852675284511\">Ķeguma Puduri, atpūtas komplekss</a>"
+        ],
+        "photo_reference": "AZose0kyRCo-W-vBjtL7WN9ZRs-2V3Q8pbNeM2EPum8s3yXgUmf0azJdOv7rL6ytwdlQzKakeIfxd2Mb21I7pBI37hTNiAorpGjBJYZ_yABRmr00zpqw03DzuX5ZMu5Hb6aUIPGOKn4GygVqz-AtcSHs2rEm9VR_Vm8pNV_0idZ3rmLclztH",
+        "width": 1170
+      }
+    ],
+    "place_id": "ChIJyd_58NUj6UYRXVR5Pq6Zxmw",
+    "plus_code": {
+      "compound_code": "PP9J+M2 Tome, Tome Parish, Latvia",
+      "global_code": "9G86PP9J+M2"
+    },
+    "price_level": 2,
+    "rating": 4.7,
+    "scope": "GOOGLE",
+    "types": [
+      "lodging",
+      "restaurant",
+      "health",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 202,
+    "vicinity": "Puduri, Tome"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05d7"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.7423308,
+        "lng": 24.3904354
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.74367333029149,
+          "lng": 24.39182053029151
+        },
+        "southwest": {
+          "lat": 56.7409753697085,
+          "lng": 24.3891225697085
+        }
+      }
+    },
+    "name": "Krīga",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 1080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113503261328543613974\">Arvo Biķernieks</a>"
+        ],
+        "photo_reference": "AZose0nSsd_3LEizlJMQOJCHz4GNGhCmgYx-pkOi5qgCh20NawLMHxqEzraLOKZkZKr1aqvkmBv2hqFzMwfmP9FhDp3lLtIGhQJ7MuocWsk6PnHoQ4FHp5oTBAsB4VXd7gn_V5uEOhtrtNDNEcKUh5aULmhJGziVxpNBPdk3a1TxxE-o5eR2",
+        "width": 1920
+      }
+    ],
+    "place_id": "ChIJMadydwop6UYR66TSXDcfJVI",
+    "plus_code": {
+      "compound_code": "P9RR+W5 Baldone, Baldones pilsēta, Latvia",
+      "global_code": "9G86P9RR+W5"
+    },
+    "rating": 3.6,
+    "scope": "GOOGLE",
+    "types": [
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 7,
+    "vicinity": "Iecavas iela 2, Baldone"
+  },{
+    "_id": {
+      "$oid": "6452231ab15dbde8b1cc05d8"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8524838,
+        "lng": 24.3371807
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8537032802915,
+          "lng": 24.3387159802915
+        },
+        "southwest": {
+          "lat": 56.85100531970851,
+          "lng": 24.3360180197085
+        }
+      }
+    },
+    "name": "Sushi Panda",
+    "opening_hours": {
+      "open_now": false
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110198281319850173014\">Sushi Panda</a>"
+        ],
+        "photo_reference": "AZose0lynTusFGEle8wE4aQosOUmyRxj1wO8CHahBk-5iUQoGsH0uOeBc0RApi6dk7EnkTgVAXdZRGhH50moeohE_9wnOlhRroZ9eSrXx_lYZkiywgHw5ZV_0QqlfZJLiy5rYcd8rA-S0P4tmjeJMARi-uus3Z7c9tp3fZDd8cZcZNsMKEjJ",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJOzG9QRwt6UYRNESCbIIx0IY",
+    "plus_code": {
+      "compound_code": "V82P+XV Salaspils, Salaspils pilsēta, Latvia",
+      "global_code": "9G86V82P+XV"
+    },
+    "rating": 4,
+    "scope": "GOOGLE",
+    "types": [
+      "meal_delivery",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 158,
+    "vicinity": "Rīgas iela 1, Salaspils"
+  },{
+    "_id": {
+      "$oid": "6452347037906d6e255da432"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.799657,
+        "lng": 24.6205452
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8010711802915,
+          "lng": 24.6220914302915
+        },
+        "southwest": {
+          "lat": 56.7983732197085,
+          "lng": 24.6193934697085
+        }
+      }
+    },
+    "name": "Grilla Punkts Street Food",
+    "opening_hours": {
+      "open_now": true
+    },
+    "place_id": "ChIJeZnxDPAl6UYREAJcirHtsys",
+    "plus_code": {
+      "compound_code": "QJXC+V6 Ogre, Ogres pilsēta, Latvia",
+      "global_code": "9G86QJXC+V6"
+    },
+    "rating": 5,
+    "types": [
+      "meal_takeaway",
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 75,
+    "vicinity": "Celtnieku iela 20, Ogre"
+  },{
+    "_id": {
+      "$oid": "6452347037906d6e255da433"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.74128419999999,
+        "lng": 24.3953545
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.7426420802915,
+          "lng": 24.3968024302915
+        },
+        "southwest": {
+          "lat": 56.7399441197085,
+          "lng": 24.3941044697085
+        }
+      }
+    },
+    "name": "PP Baldone - Pizza & Burger Bar",
+    "opening_hours": {
+      "open_now": true
+    },
+    "place_id": "ChIJNR0yWaYp6UYRWuWCuE9Ii88",
+    "plus_code": {
+      "compound_code": "P9RW+G4 Baldone, Baldones pilsēta, Latvia",
+      "global_code": "9G86P9RW+G4"
+    },
+    "rating": 3.9,
+    "types": [
+      "meal_takeaway",
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 17,
+    "vicinity": "Zīļu iela 4, Baldone"
+  },{
+    "_id": {
+      "$oid": "6452347037906d6e255da434"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8524648,
+        "lng": 24.3372905
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8537033802915,
+          "lng": 24.3387939302915
+        },
+        "southwest": {
+          "lat": 56.8510054197085,
+          "lng": 24.3360959697085
+        }
+      }
+    },
+    "name": "Babylon Food",
+    "opening_hours": {
+      "open_now": true
+    },
+    "place_id": "ChIJ-QtDVRIt6UYRHtVwGFV-wZs",
+    "plus_code": {
+      "compound_code": "V82P+XW Salaspils, Salaspils pilsēta, Latvia",
+      "global_code": "9G86V82P+XW"
+    },
+    "rating": 4.6,
+    "types": [
+      "meal_takeaway",
+      "meal_delivery",
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 28,
+    "vicinity": "Rīgas iela 1, Salaspils"
+  },{
+    "_id": {
+      "$oid": "6452347037906d6e255da435"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.8534072,
+        "lng": 24.326
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8548835302915,
+          "lng": 24.3274896802915
+        },
+        "southwest": {
+          "lat": 56.8521855697085,
+          "lng": 24.3247917197085
+        }
+      }
+    },
+    "name": "Kotlešu lietus",
+    "opening_hours": {
+      "open_now": true
+    },
+    "place_id": "ChIJLy4B8jMt6UYRUa39vQblrvQ",
+    "plus_code": {
+      "compound_code": "V83G+99 Salaspils, Salaspils pilsēta, Latvia",
+      "global_code": "9G86V83G+99"
+    },
+    "rating": 3.5,
+    "types": [
+      "meal_takeaway",
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 8,
+    "vicinity": "Zviedru iela 6, Salaspils"
+  },{
+    "_id": {
+      "$oid": "6452347037906d6e255da436"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.7172792,
+        "lng": 24.8125431
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.7185615302915,
+          "lng": 24.8139057802915
+        },
+        "southwest": {
+          "lat": 56.7158635697085,
+          "lng": 24.8112078197085
+        }
+      }
+    },
+    "name": "Yaman",
+    "opening_hours": {
+      "open_now": true
+    },
+    "place_id": "ChIJGxWvXlAj6UYRhXoP21PJkqU",
+    "plus_code": {
+      "compound_code": "PR87+W2 Lielvārde, Lielvārdes pilsēta, Latvia",
+      "global_code": "9G86PR87+W2"
+    },
+    "rating": 4.5,
+    "types": [
+      "meal_takeaway",
+      "restaurant",
+      "point_of_interest",
+      "food",
+      "establishment"
+    ],
+    "user_ratings_total": 18,
+    "vicinity": "Lāčplēša iela 17, Lielvārde"
+  },{
+    "_id": {
+      "$oid": "6452347037906d6e255da437"
+    },
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 56.829473,
+        "lng": 24.2388678
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 56.8307829302915,
+          "lng": 24.2401341302915
+        },
+        "southwest": {
+          "lat": 56.8280849697085,
+          "lng": 24.2374361697085
+        }
+      }
+    },
+    "name": "Kafejnīca Ledenīte",
+    "opening_hours": {
+      "open_now": true
+    },
+    "place_id": "ChIJm9_StbvT7kYRlnVe9SPJ86o",
+    "plus_code": {
+      "compound_code": "R6HQ+QG Ķekava, Ķekava Parish, Latvia",
+      "global_code": "9G86R6HQ+QG"
+    },
+    "price_level": 2,
+    "rating": 4,
+    "types": [
+      "restaurant",
+      "meal_takeaway",
+      "cafe",
+      "point_of_interest",
+      "food",
+      "store",
+      "establishment"
+    ],
+    "user_ratings_total": 349,
+    "vicinity": "Rīgas iela 73, Ķekava"
+  }]
