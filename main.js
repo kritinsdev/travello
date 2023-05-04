@@ -42,63 +42,93 @@ class App {
 
         this.map.on("load", async () => {
             geolocateControl.trigger();
-            // Wait for the user's location to be determined before loading markers
             await geolocationPromise;
-            this.loadMarkers();
+            this.loadAndDisplayPlaces();
         });
     }
 
-
-
-    async loadMarkers() {
+    async loadAndDisplayPlaces() {
         try {
             const response = await fetch("data.json");
             const data = await response.json();
-
-            await Promise.all(
-                data.map(async (item) => {
-                    const { name, vicinity } = item;
-
-                    // Check if the place is a bakery
-                    // const distance = await this.getWalkingDistance(
-                    //     this.currentLocationLat,
-                    //     this.currentLocationLng,
-                    //     item.geometry.location.lat,
-                    //     item.geometry.location.lng
-                    // );
-
-                    // Create a Google Maps Directions link with the current location as the starting point
-                    const directionsLink = `https://www.google.com/maps/dir/?api=1&origin=${this.currentLocationLat},${this.currentLocationLng}&destination=${item.geometry.location.lat},${item.geometry.location.lng}&travelmode=driving`;
-
-                    const popupContent = `
-                <div>
-                  <h3>${name}</h3>
-                  <p>${vicinity}</p>
-                  <a href="${directionsLink}" target="_blank">Get Directions</a>
-                </div>
-              `;
-
-                    const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(popupContent);
-
-                    // Create a custom marker element based on the type
-                    const markerElement = document.createElement("div");
-                    markerElement.className = "marker";
-                    markerElement.innerHTML = `<img src="./icons/location.png" alt="Location Icon" width="24" height="24">`;
-
-                    const marker = new mapboxgl.Marker(markerElement)
-                        .setLngLat([
-                            item.geometry.location.lng,
-                            item.geometry.location.lat,
-                        ])
-                        .setPopup(popup)
-                        .addTo(this.map);
-                })
+        
+            // Calculate distances and add them to the place objects
+            const dataWithDistances = await Promise.all(
+              data.map(async (item) => {
+                const distance = await this.getWalkingDistance(
+                  this.currentLocationLat,
+                  this.currentLocationLng,
+                  item.geometry.location.lat,
+                  item.geometry.location.lng
+                );
+                return { ...item, distance };
+              })
             );
-        } catch (error) {
+        
+            // Sort places by distance
+            const sortedData = dataWithDistances.sort((a, b) => a.distance - b.distance);
+        
+            // Create markers for the sorted places
+            this.createMarkers(sortedData);
+        
+            // Display the sorted places
+            this.displayPlaces(sortedData);
+          } catch (error) {
             console.error("Error loading JSON data:", error);
-        }
+          }
     }
 
+    async createMarkers(places) {
+        places.forEach((place) => {
+          const { name, vicinity } = place;
+      
+          const directionsLink = `https://www.google.com/maps/dir/?api=1&origin=${this.currentLocationLat},${this.currentLocationLng}&destination=${place.geometry.location.lat},${place.geometry.location.lng}&travelmode=driving`;
+      
+          const popupContent = `
+            <div>
+              <h3>${name}</h3>
+              <p>${vicinity}</p>
+              <a href="${directionsLink}" target="_blank">Get Directions</a>
+            </div>
+          `;
+      
+          const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(popupContent);
+      
+          const markerElement = document.createElement("div");
+          markerElement.className = "marker";
+          markerElement.innerHTML = `<img src="./icons/location.png" alt="Location Icon" width="24" height="24">`;
+      
+          const marker = new mapboxgl.Marker(markerElement)
+            .setLngLat([
+              place.geometry.location.lng,
+              place.geometry.location.lat,
+            ])
+            .setPopup(popup)
+            .addTo(this.map);
+        });
+      }
+
+    displayPlaces(places) {
+        const placesContainer = document.getElementById("places");
+        placesContainer.innerHTML = ""; // Clear the existing content
+      
+        places.forEach((place) => {
+          const { name, vicinity, distance } = place;
+      
+          const directionsLink = `https://www.google.com/maps/dir/?api=1&origin=${this.currentLocationLat},${this.currentLocationLng}&destination=${place.geometry.location.lat},${place.geometry.location.lng}&travelmode=driving`;
+      
+          const placeElement = document.createElement("div");
+          placeElement.className = "place";
+          placeElement.innerHTML = `
+            <h3>${name}</h3>
+            <p>${vicinity}</p>
+            <p>Distance: ${distance.toFixed(2)} km</p>
+            <a href="${directionsLink}" target="_blank">Get Directions</a>
+          `;
+      
+          placesContainer.appendChild(placeElement);
+        });
+      }
 
     async getWalkingDistance(lat1, lon1, lat2, lon2) {
         const url = `https://api.mapbox.com/directions/v5/mapbox/walking/${lon1},${lat1};${lon2},${lat2}?access_token=${this.token}`;
