@@ -14,7 +14,7 @@ class App {
     initMap() {
         this.map = new mapboxgl.Map({
             container: 'map', // container ID
-            style: 'mapbox://styles/kritinsdev/clh6ok83a00s101quf9jk49sx', // style URL
+            style: 'mapbox://styles/kritinsdev/clhb5zy9v014j01pgbidw9x8k', // style URL
             center: [24.6060, 56.8138], // starting position [lng, lat]
             zoom: 15, // starting zoom
         });
@@ -80,7 +80,7 @@ class App {
 
     async createMarkers(places) {
         places.forEach((place) => {
-          const { name, vicinity } = place;
+          const { name, vicinity, types } = place;
       
           const directionsLink = `https://www.google.com/maps/dir/?api=1&origin=${this.currentLocationLat},${this.currentLocationLng}&destination=${place.geometry.location.lat},${place.geometry.location.lng}&travelmode=driving`;
       
@@ -93,10 +93,11 @@ class App {
           `;
       
           const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(popupContent);
+          const icon = this.getIconFileName(types);
       
           const markerElement = document.createElement("div");
           markerElement.className = "marker";
-          markerElement.innerHTML = `<img src="./icons/location.png" alt="Location Icon" width="24" height="24">`;
+          markerElement.innerHTML = `<img src="${icon}" alt="Location Icon" width="24" height="24">`;
       
           const marker = new mapboxgl.Marker(markerElement)
             .setLngLat([
@@ -113,7 +114,7 @@ class App {
         placesContainer.innerHTML = ""; // Clear the existing content
       
         places.forEach((place) => {
-          const { name, vicinity, distance } = place;
+          const { name, vicinity, distance, website, formatted_phone_number } = place;
       
           const directionsLink = `https://www.google.com/maps/dir/?api=1&origin=${this.currentLocationLat},${this.currentLocationLng}&destination=${place.geometry.location.lat},${place.geometry.location.lng}&travelmode=driving`;
       
@@ -121,7 +122,6 @@ class App {
           placeElement.className = "place";
           placeElement.innerHTML = `
             <h3>${name}</h3>
-            <p>${vicinity}</p>
             <p>Distance: ${distance.toFixed(2)} km</p>
             <a href="${directionsLink}" target="_blank">Get Directions</a>
           `;
@@ -141,6 +141,24 @@ class App {
             console.error('Error fetching driving distance:', error);
         }
     }
+
+  getIconFileName(types) {
+    if (types.length > 1) {
+      return "./icons/restaurant.png";
+    }
+
+    if (types.includes("bakery")) {
+      return "./icons/bakery.png";
+    } else if (types.includes("restaurant")) {
+      return "./icons/restaurant.png";
+    } else if (types.includes("bar")) {
+      return "./icons/bar.png";
+    } else if (types.includes("cafe")) {
+      return "./icons/cafe.png";
+    } else if (types.includes("takeaway")) {
+      return "./icons/takeaway.png";
+    }
+  }
 }
 
 new App();

@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "645379e8c3cb9605b586281c"
+    "$oid": "64542834a5917ce86dfd9ac5"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
@@ -24,10 +24,7 @@
   "price_level": 1,
   "rating": 4.6,
   "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "restaurant"
   ],
   "user_ratings_total": 1440,
   "vicinity": "Brīvības iela 23, Ogre",
@@ -35,124 +32,192 @@
   "formatted_phone_number": "65 024 894",
   "serves_beer": true,
   "takeout": true,
-  "website": "https://niko-a.lv/"
+  "website": "https://niko-a.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "645379e8c3cb9605b586281d"
+    "$oid": "64542834a5917ce86dfd9ac6"
   },
-  "business_status": "OPERATIONAL",
+  "business_status": "CLOSED_TEMPORARILY",
   "geometry": {
     "location": {
-      "lat": 56.8166503,
-      "lng": 24.5852203
+      "lat": 56.8230085,
+      "lng": 24.5938658
     },
     "viewport": {
       "northeast": {
-        "lat": 56.81810178029151,
-        "lng": 24.58664838029151
+        "lat": 56.8243972302915,
+        "lng": 24.5952745302915
       },
       "southwest": {
-        "lat": 56.81540381970851,
-        "lng": 24.5839504197085
+        "lat": 56.8216992697085,
+        "lng": 24.5925765697085
       }
     }
   },
-  "name": "Čili Pica TC \"Dauga\"",
-  "place_id": "ChIJPcplEWEl6UYR3_wP7FJcFDU",
+  "name": "Bocal",
+  "permanently_closed": true,
+  "place_id": "ChIJ8eUZG18l6UYRpvImVCGiIbs",
   "price_level": 2,
   "rating": 3.7,
   "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "bar"
   ],
-  "user_ratings_total": 2508,
-  "vicinity": "Rīgas iela 23, Ogre",
-  "delivery": true,
-  "dine_in": true,
-  "formatted_phone_number": "65 044 354",
-  "serves_beer": true,
-  "takeout": true,
-  "website": "https://cilipizza.lv/"
+  "user_ratings_total": 22,
+  "vicinity": "Mālkalnes prospekts 9-31a, Ogre",
+  "formatted_phone_number": "27 798 555",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "645379e8c3cb9605b586281e"
+    "$oid": "64542834a5917ce86dfd9ac7"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.81964300000001,
-      "lng": 24.609404
+      "lat": 56.8148682,
+      "lng": 24.6023546
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8211286802915,
-        "lng": 24.6107114302915
+        "lat": 56.8162685802915,
+        "lng": 24.6035824302915
       },
       "southwest": {
-        "lat": 56.8184307197085,
-        "lng": 24.6080134697085
+        "lat": 56.8135706197085,
+        "lng": 24.60088446970849
       }
     }
   },
-  "name": "Štoka pica , OGRE",
-  "place_id": "ChIJP58g_l0l6UYRD2wKGx3G9nw",
+  "name": "Kafejnīca - konditoreja Policijas akadēmija 98",
+  "place_id": "ChIJqZNH1mcl6UYR3qndd0SX-uk",
   "price_level": 2,
-  "rating": 4.3,
+  "rating": 4.1,
   "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "cafe",
+    "bakery"
   ],
-  "user_ratings_total": 94,
-  "vicinity": "Brīvības iela 50, Ogre",
+  "user_ratings_total": 287,
+  "vicinity": "Brīvības iela 12, Ogre",
   "delivery": true,
   "dine_in": true,
-  "formatted_phone_number": "27 086 575",
+  "formatted_phone_number": "65 021 200",
+  "serves_beer": true,
   "takeout": true,
-  "website": "http://www.stokapica.lv/"
+  "website": "http://www.policijasakademija98.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "645379e9c3cb9605b586281f"
+    "$oid": "64542834a5917ce86dfd9ac8"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.81799549999999,
-      "lng": 24.6054202
+      "lat": 56.8148682,
+      "lng": 24.6023546
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8195360802915,
-        "lng": 24.6069875302915
+        "lat": 56.8162685802915,
+        "lng": 24.6035824302915
       },
       "southwest": {
-        "lat": 56.8168381197085,
-        "lng": 24.6042895697085
+        "lat": 56.8135706197085,
+        "lng": 24.60088446970849
       }
     }
   },
-  "name": "LaCasa Ogre",
-  "place_id": "ChIJF20bS10l6UYRJuHKm1fHQc4",
-  "rating": 4.5,
+  "name": "Kafejnīca - konditoreja Policijas akadēmija 98",
+  "place_id": "ChIJqZNH1mcl6UYR3qndd0SX-uk",
+  "price_level": 2,
+  "rating": 4.1,
   "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "cafe",
+    "bakery"
   ],
-  "user_ratings_total": 169,
-  "vicinity": "Brīvības iela 21, Ogre",
+  "user_ratings_total": 287,
+  "vicinity": "Brīvības iela 12, Ogre",
   "delivery": true,
   "dine_in": true,
-  "formatted_phone_number": "63 470 700",
+  "formatted_phone_number": "65 021 200",
   "serves_beer": true,
-  "takeout": true
+  "takeout": true,
+  "website": "http://www.policijasakademija98.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "645379e9c3cb9605b5862820"
+    "$oid": "64542834a5917ce86dfd9ac9"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8236222,
+      "lng": 24.5994413
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8249654802915,
+        "lng": 24.6007830802915
+      },
+      "southwest": {
+        "lat": 56.8222675197085,
+        "lng": 24.5980851197085
+      }
+    }
+  },
+  "name": "Bubble Gum, Ogre. Kebab kafejnīca.",
+  "place_id": "ChIJQdpr2oYl6UYRh5pQsCrMB90",
+  "rating": 3.7,
+  "types": [
+    "cafe",
+    "meal_takeaway",
+    "restaurant"
+  ],
+  "user_ratings_total": 177,
+  "vicinity": "Mālkalnes prospekts 34, Ogre",
+  "delivery": true,
+  "dine_in": true,
+  "formatted_phone_number": "29 394 920",
+  "serves_beer": true,
+  "takeout": true,
+  "website": "https://www.manapiegade.lv/bubble-gum",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9aca"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.748401,
+      "lng": 24.7184669
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.74965443029149,
+        "lng": 24.7199566302915
+      },
+      "southwest": {
+        "lat": 56.74695646970849,
+        "lng": 24.71725866970849
+      }
+    }
+  },
+  "name": "Austra-LT",
+  "place_id": "ChIJy6nEXZQj6UYR_mhjt5LUPwU",
+  "price_level": 1,
+  "rating": 3.8,
+  "types": [
+    "restaurant"
+  ],
+  "user_ratings_total": 82,
+  "vicinity": "Celtnieku iela 1K, Ķegums",
+  "dine_in": true,
+  "formatted_phone_number": "65 038 804",
+  "takeout": true,
+  "city": "Ķegums"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9acb"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
@@ -178,11 +243,7 @@
   "types": [
     "bar",
     "cafe",
-    "night_club",
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "restaurant"
   ],
   "user_ratings_total": 1140,
   "vicinity": "Brīvības iela 19, Ogre",
@@ -191,238 +252,180 @@
   "formatted_phone_number": "24 240 434",
   "serves_beer": true,
   "takeout": true,
-  "website": "http://ezitis.lv/ogres-ezitis/"
+  "website": "http://ezitis.lv/ogres-ezitis/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "645379e9c3cb9605b5862821"
+    "$oid": "64542835a5917ce86dfd9acc"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.8186222,
-      "lng": 24.6058916
+      "lat": 56.8179545,
+      "lng": 24.6055297
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8198700302915,
-        "lng": 24.6073817802915
+        "lat": 56.8195303802915,
+        "lng": 24.6070395802915
       },
       "southwest": {
-        "lat": 56.8171720697085,
-        "lng": 24.60468381970849
+        "lat": 56.8168324197085,
+        "lng": 24.6043416197085
       }
     }
   },
-  "name": "Kalnakraučas",
-  "place_id": "ChIJeWWhM10l6UYR2n7hZDS02Q8",
-  "rating": 3,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 8,
-  "vicinity": "Brīvības iela 25, Ogre",
-  "dine_in": true,
-  "formatted_phone_number": "26 475 860",
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "645379e9c3cb9605b5862822"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.817421,
-      "lng": 24.6059947
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8187714302915,
-        "lng": 24.60673385
-      },
-      "southwest": {
-        "lat": 56.8160734697085,
-        "lng": 24.60377725
-      }
-    }
-  },
-  "name": "Senjorita Kukū, kafejnīca",
-  "place_id": "ChIJnfmYsUIl6UYReL7T5wTSu9I",
-  "price_level": 2,
-  "rating": 4.6,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 891,
-  "vicinity": "Brīvības iela 32, Ogre",
-  "delivery": true,
-  "dine_in": true,
-  "formatted_phone_number": "65 024 620",
-  "serves_beer": true,
-  "takeout": true,
-  "website": "http://www.senjorita.lv/"
-},{
-  "_id": {
-    "$oid": "645379e9c3cb9605b5862823"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8148682,
-      "lng": 24.6023546
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8162685802915,
-        "lng": 24.6035824302915
-      },
-      "southwest": {
-        "lat": 56.8135706197085,
-        "lng": 24.60088446970849
-      }
-    }
-  },
-  "name": "SierŠtelle Studio",
-  "place_id": "ChIJdZNH1mcl6UYRaQhaSkzXuac",
-  "rating": 4.5,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 73,
-  "vicinity": "Brīvības iela 12, Ogre",
-  "dine_in": true,
-  "formatted_phone_number": "25 767 626",
-  "serves_beer": true,
-  "takeout": true,
-  "website": "https://www.facebook.com/SierStelleStudio/"
-},{
-  "_id": {
-    "$oid": "645379e9c3cb9605b5862824"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8134051,
-      "lng": 24.60425619999999
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8146810802915,
-        "lng": 24.6055062302915
-      },
-      "southwest": {
-        "lat": 56.8119831197085,
-        "lng": 24.60280826970849
-      }
-    }
-  },
-  "name": "Picas meistars, picērija",
-  "place_id": "ChIJ9zjL82gl6UYRLpHe4qJ0gTo",
+  "name": "M.Pures beķereja",
+  "place_id": "ChIJd6ZYSl0l6UYRst8pu_Eo9e4",
   "price_level": 2,
   "rating": 4.5,
   "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "cafe"
   ],
-  "user_ratings_total": 482,
-  "vicinity": "5001, Ķiršu iela 5, Ogre",
+  "user_ratings_total": 341,
+  "vicinity": "Brīvības iela 21, Ogre",
+  "dine_in": true,
+  "formatted_phone_number": "65 022 599",
+  "takeout": true,
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9acd"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8376393,
+      "lng": 24.5036725
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8389390802915,
+        "lng": 24.5052321802915
+      },
+      "southwest": {
+        "lat": 56.8362411197085,
+        "lng": 24.5025342197085
+      }
+    }
+  },
+  "name": "Anek",
+  "place_id": "ChIJ_4NXK0gu6UYRdH6B6lnDGnM",
+  "rating": 4.5,
+  "types": [
+    "bakery"
+  ],
+  "user_ratings_total": 19,
+  "vicinity": "Daugavas prospekts 28, Ikšķile",
+  "formatted_phone_number": "25 270 152",
+  "takeout": true,
+  "city": "Ikšķile"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9ace"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.799657,
+      "lng": 24.6205452
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8010711802915,
+        "lng": 24.6220914302915
+      },
+      "southwest": {
+        "lat": 56.7983732197085,
+        "lng": 24.6193934697085
+      }
+    }
+  },
+  "name": "Grilla Punkts Street Food",
+  "place_id": "ChIJeZnxDPAl6UYREAJcirHtsys",
+  "rating": 5,
+  "types": [
+    "meal_takeaway",
+    "restaurant"
+  ],
+  "user_ratings_total": 76,
+  "vicinity": "Celtnieku iela 20, Ogre",
   "delivery": true,
   "dine_in": true,
-  "formatted_phone_number": "20 011 188",
+  "formatted_phone_number": "29 115 638",
+  "takeout": true,
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9acf"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.81786700000001,
+      "lng": 24.6045815
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.81921598029151,
+        "lng": 24.6059304802915
+      },
+      "southwest": {
+        "lat": 56.81651801970851,
+        "lng": 24.60323251970849
+      }
+    }
+  },
+  "name": "O-bars , kafejnica",
+  "place_id": "ChIJ9UL7Tl0l6UYRbXzeftRnDBA",
+  "types": [
+    "bar"
+  ],
+  "vicinity": "Brīvības iela 19, Ogre",
+  "dine_in": true,
   "serves_beer": true,
   "takeout": true,
-  "website": "http://www.picasmeistars.lv/ogre"
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "645379e9c3cb9605b5862825"
+    "$oid": "64542835a5917ce86dfd9ad0"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.8126647,
-      "lng": 24.6009925
+      "lat": 56.8166503,
+      "lng": 24.5852203
     },
     "viewport": {
       "northeast": {
-        "lat": 56.81397983029149,
-        "lng": 24.6022116802915
+        "lat": 56.81810178029151,
+        "lng": 24.58664838029151
       },
       "southwest": {
-        "lat": 56.81128186970849,
-        "lng": 24.59951371970849
+        "lat": 56.81540381970851,
+        "lng": 24.5839504197085
       }
     }
   },
-  "name": "Neste",
-  "place_id": "ChIJb2tXUW8l6UYRXz-R0TOSO4g",
-  "rating": 4.3,
-  "types": [
-    "gas_station",
-    "car_wash",
-    "convenience_store",
-    "car_repair",
-    "restaurant",
-    "food",
-    "store",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 18,
-  "vicinity": "Rīgas iela 11a, Ogre",
-  "formatted_phone_number": "80 009 006",
-  "website": "http://www.neste.lv/"
-},{
-  "_id": {
-    "$oid": "645379e9c3cb9605b5862826"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8166536,
-      "lng": 24.6051729
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.81791373029149,
-        "lng": 24.6065258802915
-      },
-      "southwest": {
-        "lat": 56.81521576970849,
-        "lng": 24.60382791970849
-      }
-    }
-  },
-  "name": "Ostreet",
-  "place_id": "ChIJV3VhlHUl6UYRPp3hjA26dCE",
+  "name": "Čili Pica TC \"Dauga\"",
+  "place_id": "ChIJPcplEWEl6UYR3_wP7FJcFDU",
   "price_level": 2,
-  "rating": 4.8,
+  "rating": 3.7,
   "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "restaurant"
   ],
-  "user_ratings_total": 351,
-  "vicinity": "Brīvības iela 22, Ogre",
+  "user_ratings_total": 2508,
+  "vicinity": "Rīgas iela 23, Ogre",
   "delivery": true,
   "dine_in": true,
-  "formatted_phone_number": "24 333 094",
+  "formatted_phone_number": "65 044 354",
   "serves_beer": true,
   "takeout": true,
-  "website": "http://www.ostreet.lv/"
+  "website": "https://cilipizza.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "645379e9c3cb9605b5862827"
+    "$oid": "64542835a5917ce86dfd9ad1"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
@@ -449,429 +452,58 @@
     "restaurant",
     "cafe",
     "bakery",
-    "bar",
-    "food",
-    "store",
-    "point_of_interest",
-    "establishment"
+    "bar"
   ],
-  "user_ratings_total": 250,
+  "user_ratings_total": 249,
   "vicinity": "Tīnūžu iela 1, Ogre",
   "dine_in": true,
   "formatted_phone_number": "20 277 577",
   "serves_beer": true,
   "takeout": true,
-  "website": "http://melnakamene.lv/"
+  "website": "http://melnakamene.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "645379e9c3cb9605b5862828"
-  },
-  "business_status": "CLOSED_TEMPORARILY",
-  "geometry": {
-    "location": {
-      "lat": 56.8159046,
-      "lng": 24.6041411
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8171542302915,
-        "lng": 24.60541123029151
-      },
-      "southwest": {
-        "lat": 56.8144562697085,
-        "lng": 24.60271326970851
-      }
-    }
-  },
-  "name": "Pie Zelta Liepas",
-  "permanently_closed": true,
-  "place_id": "ChIJbSFN-pcl6UYRPWUwClFC_C4",
-  "rating": 4.4,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 26,
-  "vicinity": "Brīvības iela 18, Ogre",
-  "delivery": true,
-  "formatted_phone_number": "25 873 817",
-  "takeout": true,
-  "website": "http://www.zeltaliepas.lv/"
-},{
-  "_id": {
-    "$oid": "645379eac3cb9605b5862829"
+    "$oid": "64542835a5917ce86dfd9ad2"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.816498,
-      "lng": 24.6024841
+      "lat": 56.8195521,
+      "lng": 24.6065075
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8177766802915,
-        "lng": 24.6037213302915
+        "lat": 56.8208966802915,
+        "lng": 24.6079832802915
       },
       "southwest": {
-        "lat": 56.8150787197085,
-        "lng": 24.60102336970849
+        "lat": 56.8181987197085,
+        "lng": 24.6052853197085
       }
     }
   },
-  "name": "WogaCafe, kafejnīca",
-  "place_id": "ChIJn9jqV4kl6UYRaVJ6F5p9_NM",
+  "name": "Melnā Kamene Gastrobārs",
+  "place_id": "ChIJ7XkMG-Yl6UYRlU3Ppu6nRqM",
+  "price_level": 2,
   "rating": 4.6,
   "types": [
     "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 43,
-  "vicinity": "Upes prospekts 10, Ogre",
-  "delivery": true,
-  "dine_in": true,
-  "formatted_phone_number": "20 378 886",
-  "serves_beer": true,
-  "takeout": true,
-  "website": "http://www.wogacafe.lv/"
-},{
-  "_id": {
-    "$oid": "645379eac3cb9605b586282a"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.82220929999999,
-      "lng": 24.6064829
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.82340178029149,
-        "lng": 24.6075713802915
-      },
-      "southwest": {
-        "lat": 56.8207038197085,
-        "lng": 24.6048734197085
-      }
-    }
-  },
-  "name": "Gamma-Ā",
-  "place_id": "ChIJo4IcmVwl6UYR54qh9j0Cpls",
-  "rating": 3.7,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 3,
-  "vicinity": "Meža prospekts 14, Ogre",
-  "dine_in": true,
-  "formatted_phone_number": "65 035 698",
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "645379eac3cb9605b586282b"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8126386,
-      "lng": 24.6025957
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8140293802915,
-        "lng": 24.6039301302915
-      },
-      "southwest": {
-        "lat": 56.8113314197085,
-        "lng": 24.6012321697085
-      }
-    }
-  },
-  "name": "Hesburger",
-  "place_id": "ChIJRaYes_Ml6UYR26wY8MwqkP0",
-  "rating": 3.7,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 64,
-  "vicinity": "Rīgas iela 5, Ogre",
-  "dine_in": true,
-  "formatted_phone_number": "29 362 854",
-  "serves_beer": false,
-  "takeout": true,
-  "website": "https://www.hesburger.lv/"
-},{
-  "_id": {
-    "$oid": "645379eac3cb9605b586282c"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8236222,
-      "lng": 24.5994413
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8249654802915,
-        "lng": 24.6007830802915
-      },
-      "southwest": {
-        "lat": 56.8222675197085,
-        "lng": 24.5980851197085
-      }
-    }
-  },
-  "name": "Bubble Gum, Ogre. Kebab kafejnīca.",
-  "place_id": "ChIJQdpr2oYl6UYRh5pQsCrMB90",
-  "rating": 3.7,
-  "types": [
-    "cafe",
-    "meal_takeaway",
-    "meal_delivery",
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 177,
-  "vicinity": "Mālkalnes prospekts 34, Ogre",
-  "delivery": true,
-  "dine_in": true,
-  "formatted_phone_number": "29 394 920",
-  "serves_beer": true,
-  "takeout": true,
-  "website": "https://www.manapiegade.lv/bubble-gum"
-},{
-  "_id": {
-    "$oid": "645379eac3cb9605b586282d"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8252433,
-      "lng": 24.6026357
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.82656988029149,
-        "lng": 24.6042672302915
-      },
-      "southwest": {
-        "lat": 56.82387191970849,
-        "lng": 24.6015692697085
-      }
-    }
-  },
-  "name": "Mana Piegāde",
-  "place_id": "ChIJbcnqSuol6UYRXFkz_FpOTC8",
-  "rating": 5,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 4,
-  "vicinity": "Mednieku iela 21/23, Ogre",
-  "formatted_phone_number": "23 886 611",
-  "website": "https://manapiegade.lv/"
-},{
-  "_id": {
-    "$oid": "645379eac3cb9605b586282e"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.822539,
-      "lng": 24.5949959
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.82384543029149,
-        "lng": 24.5962936802915
-      },
-      "southwest": {
-        "lat": 56.8211474697085,
-        "lng": 24.5935957197085
-      }
-    }
-  },
-  "name": "ROAST",
-  "place_id": "ChIJGfIz_V4l6UYRlADtzn0h4c0",
-  "rating": 4.1,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 428,
-  "vicinity": "Mālkalnes prospekts 7, Ogre",
-  "delivery": true,
-  "dine_in": true,
-  "formatted_phone_number": "22 112 457",
-  "serves_beer": true,
-  "takeout": true,
-  "website": "http://www.roast.lv/"
-},{
-  "_id": {
-    "$oid": "645379eac3cb9605b586282f"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8157289,
-      "lng": 24.588744
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8172356302915,
-        "lng": 24.5903091802915
-      },
-      "southwest": {
-        "lat": 56.8145376697085,
-        "lng": 24.5876112197085
-      }
-    }
-  },
-  "name": "Kotlešu lietus",
-  "place_id": "ChIJXdQA8gAl6UYR2fX0-8C5Wfs",
-  "rating": 5,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 1,
-  "vicinity": "Rīgas iela 17, Ogre",
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "645379efc3cb9605b5862830"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.799657,
-      "lng": 24.6205452
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8010711802915,
-        "lng": 24.6220914302915
-      },
-      "southwest": {
-        "lat": 56.7983732197085,
-        "lng": 24.6193934697085
-      }
-    }
-  },
-  "name": "Grilla Punkts Street Food",
-  "place_id": "ChIJeZnxDPAl6UYREAJcirHtsys",
-  "rating": 5,
-  "types": [
-    "meal_takeaway",
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 76,
-  "vicinity": "Celtnieku iela 20, Ogre",
-  "delivery": true,
-  "dine_in": true,
-  "formatted_phone_number": "29 115 638",
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "64537a05ce25a71278b6d2aa"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8148682,
-      "lng": 24.6023546
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8162685802915,
-        "lng": 24.6035824302915
-      },
-      "southwest": {
-        "lat": 56.8135706197085,
-        "lng": 24.60088446970849
-      }
-    }
-  },
-  "name": "Kafejnīca - konditoreja Policijas akadēmija 98",
-  "place_id": "ChIJqZNH1mcl6UYR3qndd0SX-uk",
-  "price_level": 2,
-  "rating": 4.1,
-  "types": [
-    "cafe",
     "bakery",
-    "point_of_interest",
-    "store",
-    "food",
-    "establishment"
+    "bar",
+    "cafe"
   ],
-  "user_ratings_total": 287,
-  "vicinity": "Brīvības iela 12, Ogre",
-  "delivery": true,
+  "user_ratings_total": 249,
+  "vicinity": "Tīnūžu iela 1, Ogre",
   "dine_in": true,
-  "formatted_phone_number": "65 021 200",
+  "formatted_phone_number": "20 277 577",
   "serves_beer": true,
   "takeout": true,
-  "website": "http://www.policijasakademija98.lv/"
+  "website": "http://melnakamene.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537a06ce25a71278b6d2ab"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8179545,
-      "lng": 24.6055297
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8195303802915,
-        "lng": 24.6070395802915
-      },
-      "southwest": {
-        "lat": 56.8168324197085,
-        "lng": 24.6043416197085
-      }
-    }
-  },
-  "name": "M.Pures beķereja",
-  "place_id": "ChIJd6ZYSl0l6UYRst8pu_Eo9e4",
-  "price_level": 2,
-  "rating": 4.5,
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "food",
-    "establishment"
-  ],
-  "user_ratings_total": 341,
-  "vicinity": "Brīvības iela 21, Ogre",
-  "dine_in": true,
-  "formatted_phone_number": "65 022 599",
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "64537a06ce25a71278b6d2ac"
+    "$oid": "64542835a5917ce86dfd9ad3"
   },
   "business_status": "CLOSED_TEMPORARILY",
   "geometry": {
@@ -895,582 +527,53 @@
   "place_id": "ChIJxWxA31gl6UYRPCI9h2QRsY8",
   "rating": 4.6,
   "types": [
-    "tourist_attraction",
-    "cafe",
-    "amusement_park",
-    "point_of_interest",
-    "food",
-    "establishment"
+    "cafe"
   ],
   "user_ratings_total": 550,
   "vicinity": "\"Ogres Zilie kalni\", Dabas parks, Ogre",
   "delivery": false,
   "formatted_phone_number": "24 427 070",
-  "website": "http://milzutaka.lv/"
+  "website": "http://milzutaka.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537a06ce25a71278b6d2ad"
+    "$oid": "64542835a5917ce86dfd9ad4"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.8180497,
-      "lng": 24.605576
+      "lat": 56.81964300000001,
+      "lng": 24.609404
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8195727802915,
-        "lng": 24.60708243029151
+        "lat": 56.8211286802915,
+        "lng": 24.6107114302915
       },
       "southwest": {
-        "lat": 56.8168748197085,
-        "lng": 24.6043844697085
+        "lat": 56.8184307197085,
+        "lng": 24.6080134697085
       }
     }
   },
-  "name": "\"Armani\" SUSHI. Saldējuma Namiņš. Sušī Ogre",
-  "place_id": "ChIJhyd6QJIl6UYRafWLHHnsqKk",
-  "rating": 5,
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "store",
-    "food",
-    "establishment"
-  ],
-  "user_ratings_total": 12,
-  "vicinity": "Brīvības iela 21a, Ogre",
-  "delivery": true,
-  "formatted_phone_number": "25 722 572",
-  "takeout": true,
-  "website": "http://www.sushiarmani.lv/"
-},{
-  "_id": {
-    "$oid": "64537a06ce25a71278b6d2ae"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8186666,
-      "lng": 24.6059401
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8198922302915,
-        "lng": 24.6074260802915
-      },
-      "southwest": {
-        "lat": 56.8171942697085,
-        "lng": 24.6047281197085
-      }
-    }
-  },
-  "name": "Ilze, kafejnīca",
-  "place_id": "ChIJeWWhM10l6UYRL71Atd5VZ1g",
+  "name": "Štoka pica , OGRE",
+  "place_id": "ChIJP58g_l0l6UYRD2wKGx3G9nw",
   "price_level": 2,
-  "rating": 3.9,
+  "rating": 4.3,
   "types": [
-    "cafe",
-    "point_of_interest",
-    "store",
-    "food",
-    "establishment"
+    "restaurant"
   ],
-  "user_ratings_total": 352,
-  "vicinity": "Brīvības iela 25, Ogre",
-  "dine_in": true,
-  "formatted_phone_number": "26 543 080",
-  "serves_beer": true,
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "64537a06ce25a71278b6d2af"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8171304,
-      "lng": 24.6027348
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.81855313029151,
-        "lng": 24.6036877802915
-      },
-      "southwest": {
-        "lat": 56.81585516970851,
-        "lng": 24.6009898197085
-      }
-    }
-  },
-  "name": "Ogre Cultural Center Cafe",
-  "place_id": "ChIJvWrQ9Wcl6UYRQ0zT81QBpF4",
-  "rating": 3.9,
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "store",
-    "food",
-    "establishment"
-  ],
-  "user_ratings_total": 14,
-  "vicinity": "Brīvības iela 15, Ogre",
-  "dine_in": true,
-  "formatted_phone_number": "26 550 090",
-  "serves_beer": true,
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "64537a06ce25a71278b6d2b0"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.817192,
-      "lng": 24.610435
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.81960669999999,
-        "lng": 24.6115827802915
-      },
-      "southwest": {
-        "lat": 56.8163871,
-        "lng": 24.6088848197085
-      }
-    }
-  },
-  "name": "Aukro-99",
-  "place_id": "ChIJmdKs9EIl6UYRzfwXwo7DGWw",
-  "rating": 3.9,
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "store",
-    "food",
-    "establishment"
-  ],
-  "user_ratings_total": 8,
-  "vicinity": "Zinību iela 3, Ogre",
-  "dine_in": true,
-  "formatted_phone_number": "65 044 214",
-  "serves_beer": true,
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "64537a06ce25a71278b6d2b1"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8150595,
-      "lng": 24.6029246
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8162950802915,
-        "lng": 24.6043036802915
-      },
-      "southwest": {
-        "lat": 56.8135971197085,
-        "lng": 24.60160571970849
-      }
-    }
-  },
-  "name": "Cita Telpa",
-  "place_id": "ChIJiZOhvA0l6UYRqEa-cvPYQ3w",
-  "rating": 5,
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "store",
-    "food",
-    "establishment"
-  ],
-  "user_ratings_total": 18,
-  "vicinity": "Brīvības iela 12a, Ogre",
-  "formatted_phone_number": "28 339 912",
-  "website": "https://www.citatelpa.lv/"
-},{
-  "_id": {
-    "$oid": "64537a06ce25a71278b6d2b2"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8153121,
-      "lng": 24.6020734
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.81657473029151,
-        "lng": 24.6032833302915
-      },
-      "southwest": {
-        "lat": 56.81387676970851,
-        "lng": 24.6005853697085
-      }
-    }
-  },
-  "name": "GAITA Coffee Shop",
-  "place_id": "ChIJ19HkqYgl6UYRv6ka0JmHtKk",
-  "rating": 5,
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "store",
-    "food",
-    "establishment"
-  ],
-  "user_ratings_total": 8,
-  "vicinity": "Brīvības iela 9, Ogre",
-  "delivery": false,
-  "dine_in": true,
-  "formatted_phone_number": "26 667 573",
-  "takeout": true,
-  "website": "http://instagram.com/gaita_coffeeshop"
-},{
-  "_id": {
-    "$oid": "64537a06ce25a71278b6d2b3"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8161645,
-      "lng": 24.5997767
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8173664302915,
-        "lng": 24.6008913302915
-      },
-      "southwest": {
-        "lat": 56.8146684697085,
-        "lng": 24.5981933697085
-      }
-    }
-  },
-  "name": "Uzkodas",
-  "place_id": "ChIJVYxpo2cl6UYRZl73wU2CPo0",
-  "price_level": 2,
-  "rating": 3.9,
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "store",
-    "food",
-    "establishment"
-  ],
-  "user_ratings_total": 14,
-  "vicinity": "Skolas iela 2A, Ogre",
-  "delivery": false,
-  "dine_in": true,
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "64537a07ce25a71278b6d2b4"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8165981,
-      "lng": 24.5988094
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8180209302915,
-        "lng": 24.6002524302915
-      },
-      "southwest": {
-        "lat": 56.8153229697085,
-        "lng": 24.5975544697085
-      }
-    }
-  },
-  "name": "Divitomati",
-  "place_id": "ChIJ9yZS5Ucu6UYRgudR-QcXOQM",
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "food",
-    "establishment"
-  ],
-  "vicinity": "Skolas iela 4, Ogre",
-  "dine_in": true,
-  "formatted_phone_number": "23 370 033",
-  "takeout": true,
-  "website": "https://www.divitomati.lv/kontakti/"
-},{
-  "_id": {
-    "$oid": "64537a07ce25a71278b6d2b5"
-  },
-  "business_status": "CLOSED_TEMPORARILY",
-  "geometry": {
-    "location": {
-      "lat": 56.81552540000001,
-      "lng": 24.5995411
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.81694223029151,
-        "lng": 24.6009942302915
-      },
-      "southwest": {
-        "lat": 56.81424426970851,
-        "lng": 24.5982962697085
-      }
-    }
-  },
-  "name": "Spriditis , kafejnica",
-  "permanently_closed": true,
-  "place_id": "ChIJ85hVsGcl6UYRV0grFWzlx0w",
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "food",
-    "establishment"
-  ],
-  "vicinity": "Skolas iela 3A, Ogre"
-},{
-  "_id": {
-    "$oid": "64537a07ce25a71278b6d2b6"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8217947,
-      "lng": 24.5965844
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.82320513029151,
-        "lng": 24.5979896302915
-      },
-      "southwest": {
-        "lat": 56.82050716970851,
-        "lng": 24.5952916697085
-      }
-    }
-  },
-  "name": "Ciemos",
-  "place_id": "ChIJ4wtBePEl6UYRU9wqQuxf9dY",
-  "rating": 4.1,
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "food",
-    "establishment"
-  ],
-  "user_ratings_total": 105,
-  "vicinity": "Mālkalnes prospekts 4, Ogre",
+  "user_ratings_total": 94,
+  "vicinity": "Brīvības iela 50, Ogre",
   "delivery": true,
   "dine_in": true,
-  "formatted_phone_number": "26 371 853",
-  "serves_beer": true,
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "64537a07ce25a71278b6d2b7"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.816747,
-      "lng": 24.5850138
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8181809302915,
-        "lng": 24.5863919802915
-      },
-      "southwest": {
-        "lat": 56.8154829697085,
-        "lng": 24.5836940197085
-      }
-    }
-  },
-  "name": "Ozoliņa Konditoreja, SIA",
-  "place_id": "ChIJjRa7w2El6UYR9KcbtgoNnP0",
-  "rating": 3.8,
-  "types": [
-    "cafe",
-    "point_of_interest",
-    "food",
-    "establishment"
-  ],
-  "user_ratings_total": 37,
-  "vicinity": "Rīgas iela 23, Ogre",
-  "dine_in": true,
+  "formatted_phone_number": "27 086 575",
   "takeout": true,
-  "website": "http://www.ozolinakonditoreja.lv/"
+  "website": "http://www.stokapica.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537a164c765a39a4255a51"
-  },
-  "business_status": "CLOSED_TEMPORARILY",
-  "geometry": {
-    "location": {
-      "lat": 56.8230085,
-      "lng": 24.5938658
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8243972302915,
-        "lng": 24.5952745302915
-      },
-      "southwest": {
-        "lat": 56.8216992697085,
-        "lng": 24.5925765697085
-      }
-    }
-  },
-  "name": "Bocal",
-  "permanently_closed": true,
-  "place_id": "ChIJ8eUZG18l6UYRpvImVCGiIbs",
-  "price_level": 2,
-  "rating": 3.7,
-  "types": [
-    "bar",
-    "point_of_interest",
-    "store",
-    "establishment"
-  ],
-  "user_ratings_total": 22,
-  "vicinity": "Mālkalnes prospekts 9-31a, Ogre",
-  "formatted_phone_number": "27 798 555"
-},{
-  "_id": {
-    "$oid": "64537a164c765a39a4255a52"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.81786700000001,
-      "lng": 24.6045815
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.81921598029151,
-        "lng": 24.6059304802915
-      },
-      "southwest": {
-        "lat": 56.81651801970851,
-        "lng": 24.60323251970849
-      }
-    }
-  },
-  "name": "O-bars , kafejnica",
-  "place_id": "ChIJ9UL7Tl0l6UYRbXzeftRnDBA",
-  "types": [
-    "bar",
-    "point_of_interest",
-    "establishment"
-  ],
-  "vicinity": "Brīvības iela 19, Ogre",
-  "dine_in": true,
-  "serves_beer": true,
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "64537a164c765a39a4255a53"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8165018,
-      "lng": 24.5970921
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.81776638029149,
-        "lng": 24.5984018302915
-      },
-      "southwest": {
-        "lat": 56.8150684197085,
-        "lng": 24.59570386970849
-      }
-    }
-  },
-  "name": "Joker sporta bārs un spēļu zāle Ogrē, Skolas ielā 6",
-  "place_id": "ChIJHVOEHeAl6UYRBQhElD-vJ6M",
-  "rating": 3.5,
-  "types": [
-    "bar",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 6,
-  "vicinity": "Skolas iela 6, Ogre",
-  "formatted_phone_number": "29 505 888",
-  "serves_beer": true,
-  "website": "https://www.jokerltd.lv/spelu-zales/ogre/skolas-iela-6/"
-},{
-  "_id": {
-    "$oid": "64537a164c765a39a4255a54"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.820853,
-      "lng": 24.594884
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8222449302915,
-        "lng": 24.5961324802915
-      },
-      "southwest": {
-        "lat": 56.8195469697085,
-        "lng": 24.5934345197085
-      }
-    }
-  },
-  "name": "OlyBet, Sporta Bārs",
-  "place_id": "ChIJVy0aQ14l6UYRGfgi2kfdIYI",
-  "price_level": 2,
-  "rating": 4.2,
-  "types": [
-    "bar",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 68,
-  "vicinity": "Mālkalnes prospekts 2B, Ogre",
-  "formatted_phone_number": "22 013 185",
-  "serves_beer": true,
-  "website": "http://olybetsportsbar.lv/"
-},{
-  "_id": {
-    "$oid": "64537a164c765a39a4255a55"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.827034,
-      "lng": 24.6022925
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.82838298029149,
-        "lng": 24.6036414802915
-      },
-      "southwest": {
-        "lat": 56.8256850197085,
-        "lng": 24.6009435197085
-      }
-    }
-  },
-  "name": "Dirsā",
-  "place_id": "ChIJt5Rsdrsl6UYRrg9bHqifeYA",
-  "types": [
-    "bar",
-    "point_of_interest",
-    "establishment"
-  ],
-  "vicinity": "RJG2+QW, Aizupes"
-},{
-  "_id": {
-    "$oid": "64537a4fdb8bb2f22235ee38"
+    "$oid": "64542835a5917ce86dfd9ad5"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
@@ -1493,20 +596,120 @@
   "place_id": "ChIJQQNR1pQl6UYRUDc85x-0ks8",
   "rating": 5,
   "types": [
-    "bakery",
-    "food",
-    "point_of_interest",
-    "store",
-    "establishment"
+    "bakery"
   ],
   "user_ratings_total": 2,
   "vicinity": "Mālkalnes prospekts 24, Ogre",
   "delivery": true,
   "takeout": true,
-  "website": "https://bakerhouse-bakery.mozello.lv/"
+  "website": "https://bakerhouse-bakery.mozello.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537a4fdb8bb2f22235ee39"
+    "$oid": "64542835a5917ce86dfd9ad6"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8165018,
+      "lng": 24.5970921
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.81776638029149,
+        "lng": 24.5984018302915
+      },
+      "southwest": {
+        "lat": 56.8150684197085,
+        "lng": 24.59570386970849
+      }
+    }
+  },
+  "name": "Joker sporta bārs un spēļu zāle Ogrē, Skolas ielā 6",
+  "place_id": "ChIJHVOEHeAl6UYRBQhElD-vJ6M",
+  "rating": 3.5,
+  "types": [
+    "bar"
+  ],
+  "user_ratings_total": 6,
+  "vicinity": "Skolas iela 6, Ogre",
+  "formatted_phone_number": "29 505 888",
+  "serves_beer": true,
+  "website": "https://www.jokerltd.lv/spelu-zales/ogre/skolas-iela-6/",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9ad7"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.79260960000001,
+      "lng": 24.6254835
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.79388958029151,
+        "lng": 24.6268957802915
+      },
+      "southwest": {
+        "lat": 56.79119161970851,
+        "lng": 24.6241978197085
+      }
+    }
+  },
+  "name": "Fazer Latvija, SIA",
+  "place_id": "ChIJLWJXcAYl6UYRIuwfo64qwT4",
+  "price_level": 2,
+  "rating": 4.1,
+  "types": [
+    "cafe"
+  ],
+  "user_ratings_total": 122,
+  "vicinity": "Druvas iela 2, Ogre",
+  "formatted_phone_number": "65 071 040",
+  "website": "https://www.fazer.lv/",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9ad8"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8134051,
+      "lng": 24.60425619999999
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8146810802915,
+        "lng": 24.6055062302915
+      },
+      "southwest": {
+        "lat": 56.8119831197085,
+        "lng": 24.60280826970849
+      }
+    }
+  },
+  "name": "Picas meistars, picērija",
+  "place_id": "ChIJ9zjL82gl6UYRLpHe4qJ0gTo",
+  "price_level": 2,
+  "rating": 4.5,
+  "types": [
+    "restaurant"
+  ],
+  "user_ratings_total": 482,
+  "vicinity": "5001, Ķiršu iela 5, Ogre",
+  "delivery": true,
+  "dine_in": true,
+  "formatted_phone_number": "20 011 188",
+  "serves_beer": true,
+  "takeout": true,
+  "website": "http://www.picasmeistars.lv/ogre",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9ad9"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
@@ -1530,20 +733,124 @@
   "price_level": 1,
   "rating": 4.5,
   "types": [
-    "bakery",
-    "food",
-    "point_of_interest",
-    "store",
-    "establishment"
+    "bakery"
   ],
   "user_ratings_total": 145,
   "vicinity": "Mālkalnes prospekts 9, Ogre",
   "dine_in": true,
   "formatted_phone_number": "29 333 401",
-  "takeout": true
+  "takeout": true,
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537a4fdb8bb2f22235ee3a"
+    "$oid": "64542835a5917ce86dfd9ada"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.820853,
+      "lng": 24.594884
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8222449302915,
+        "lng": 24.5961324802915
+      },
+      "southwest": {
+        "lat": 56.8195469697085,
+        "lng": 24.5934345197085
+      }
+    }
+  },
+  "name": "OlyBet, Sporta Bārs",
+  "place_id": "ChIJVy0aQ14l6UYRGfgi2kfdIYI",
+  "price_level": 2,
+  "rating": 4.2,
+  "types": [
+    "bar"
+  ],
+  "user_ratings_total": 68,
+  "vicinity": "Mālkalnes prospekts 2B, Ogre",
+  "formatted_phone_number": "22 013 185",
+  "serves_beer": true,
+  "website": "http://olybetsportsbar.lv/",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9adb"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8394359,
+      "lng": 24.5033133
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8407579302915,
+        "lng": 24.5047822302915
+      },
+      "southwest": {
+        "lat": 56.8380599697085,
+        "lng": 24.50208426970849
+      }
+    }
+  },
+  "name": "Ozoliņa konditoreja",
+  "place_id": "ChIJm9wGwTcu6UYRXZaGEngVPwg",
+  "price_level": 2,
+  "rating": 4.5,
+  "types": [
+    "cafe"
+  ],
+  "user_ratings_total": 734,
+  "vicinity": "Melioratoru iela 20, Ikšķile",
+  "dine_in": true,
+  "formatted_phone_number": "65 036 787",
+  "serves_beer": true,
+  "takeout": true,
+  "website": "https://www.ozolinakonditoreja.lv/",
+  "city": "Ikšķile"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9adc"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.817421,
+      "lng": 24.6059947
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8187714302915,
+        "lng": 24.60673385
+      },
+      "southwest": {
+        "lat": 56.8160734697085,
+        "lng": 24.60377725
+      }
+    }
+  },
+  "name": "Senjorita Kukū, kafejnīca",
+  "place_id": "ChIJnfmYsUIl6UYReL7T5wTSu9I",
+  "price_level": 2,
+  "rating": 4.6,
+  "types": [
+    "restaurant"
+  ],
+  "user_ratings_total": 891,
+  "vicinity": "Brīvības iela 32, Ogre",
+  "delivery": true,
+  "dine_in": true,
+  "formatted_phone_number": "65 024 620",
+  "serves_beer": true,
+  "takeout": true,
+  "website": "http://www.senjorita.lv/",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9add"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
@@ -1566,125 +873,147 @@
   "place_id": "ChIJmXP6zK0l6UYRqd7QYHkXBsM",
   "rating": 5,
   "types": [
-    "bakery",
-    "food",
-    "point_of_interest",
-    "store",
-    "establishment"
+    "bakery"
   ],
   "user_ratings_total": 1,
   "vicinity": "Mālkalnes prospekts 23-12, Ogre",
   "formatted_phone_number": "28 486 966",
   "takeout": true,
-  "website": "https://infolapa.zl.lv/aliseskukas-sia/"
+  "website": "https://infolapa.zl.lv/aliseskukas-sia/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537e63575fe44d6b708144"
+    "$oid": "64542835a5917ce86dfd9ade"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.8232764,
-      "lng": 24.598462
+      "lat": 56.827034,
+      "lng": 24.6022925
     },
     "viewport": {
       "northeast": {
-        "lat": 56.82465638029149,
-        "lng": 24.5997432802915
+        "lat": 56.82838298029149,
+        "lng": 24.6036414802915
       },
       "southwest": {
-        "lat": 56.8219584197085,
-        "lng": 24.5970453197085
+        "lat": 56.8256850197085,
+        "lng": 24.6009435197085
       }
     }
   },
-  "name": "Pica Kebabs Suši Burgers Sushi piegāde Ogre",
-  "place_id": "ChIJrQltNmol6UYRxDoa0blO6R8",
-  "rating": 2.5,
+  "name": "Dirsā",
+  "place_id": "ChIJt5Rsdrsl6UYRrg9bHqifeYA",
   "types": [
-    "meal_delivery",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "bar"
   ],
-  "user_ratings_total": 2,
-  "vicinity": "Mālkalnes prospekts 26, Ogre",
+  "vicinity": "RJG2+QW, Aizupes",
+  "city": "Aizupes"
+},{
+  "_id": {
+    "$oid": "64542835a5917ce86dfd9adf"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.84204200000001,
+      "lng": 24.5014468
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8433835302915,
+        "lng": 24.5029206802915
+      },
+      "southwest": {
+        "lat": 56.8406855697085,
+        "lng": 24.5002227197085
+      }
+    }
+  },
+  "name": "Dainas, kafejnīca",
+  "place_id": "ChIJt-33CVMu6UYRKMggPOlWeg0",
+  "price_level": 2,
+  "rating": 4.2,
+  "types": [
+    "cafe"
+  ],
+  "user_ratings_total": 616,
+  "vicinity": "Tīnūžu šoseja 3, Ikšķile",
   "delivery": true,
   "dine_in": true,
-  "formatted_phone_number": "22 114 188",
+  "formatted_phone_number": "28 451 739",
+  "serves_beer": true,
   "takeout": true,
-  "website": "https://manapiegade.lv/"
+  "city": "Ikšķile"
 },{
   "_id": {
-    "$oid": "64537e64575fe44d6b708145"
+    "$oid": "64542835a5917ce86dfd9ae0"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.8156529,
-      "lng": 24.6016084
+      "lat": 56.8148682,
+      "lng": 24.6023546
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8168705302915,
-        "lng": 24.6027779802915
+        "lat": 56.8162685802915,
+        "lng": 24.6035824302915
       },
       "southwest": {
-        "lat": 56.8141725697085,
-        "lng": 24.6000800197085
+        "lat": 56.8135706197085,
+        "lng": 24.60088446970849
       }
     }
   },
-  "name": "taxi Ogre",
-  "place_id": "ChIJkwPjSTsl6UYRKBJ5rOKxan8",
-  "rating": 3.9,
-  "types": [
-    "meal_delivery",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 51,
-  "vicinity": "Brīvības iela 9, Ogre",
-  "formatted_phone_number": "22 003 535"
-},{
-  "_id": {
-    "$oid": "64537f81a302dc272c247290"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8376393,
-      "lng": 24.5036725
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8389390802915,
-        "lng": 24.5052321802915
-      },
-      "southwest": {
-        "lat": 56.8362411197085,
-        "lng": 24.5025342197085
-      }
-    }
-  },
-  "name": "Anek",
-  "place_id": "ChIJ_4NXK0gu6UYRdH6B6lnDGnM",
+  "name": "SierŠtelle Studio",
+  "place_id": "ChIJdZNH1mcl6UYRaQhaSkzXuac",
   "rating": 4.5,
   "types": [
-    "bakery",
-    "store",
-    "point_of_interest",
-    "food",
-    "establishment"
+    "restaurant"
   ],
-  "user_ratings_total": 19,
-  "vicinity": "Daugavas prospekts 28, Ikšķile",
-  "formatted_phone_number": "25 270 152",
-  "takeout": true
+  "user_ratings_total": 73,
+  "vicinity": "Brīvības iela 12, Ogre",
+  "dine_in": true,
+  "formatted_phone_number": "25 767 626",
+  "serves_beer": true,
+  "takeout": true,
+  "website": "https://www.facebook.com/SierStelleStudio/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537f81a302dc272c247291"
+    "$oid": "64542836a5917ce86dfd9ae1"
+  },
+  "business_status": "CLOSED_TEMPORARILY",
+  "geometry": {
+    "location": {
+      "lat": 56.78418199999999,
+      "lng": 24.6289018
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.78545138029149,
+        "lng": 24.6300882802915
+      },
+      "southwest": {
+        "lat": 56.7827534197085,
+        "lng": 24.6273903197085
+      }
+    }
+  },
+  "name": "Zeltozoli",
+  "permanently_closed": true,
+  "place_id": "ChIJmWwaK3El6UYROroydFHEJp8",
+  "rating": 5,
+  "types": [
+    "bar"
+  ],
+  "user_ratings_total": 1,
+  "vicinity": "Ogresgals Parish",
+  "city": "Ciemupe"
+},{
+  "_id": {
+    "$oid": "64542836a5917ce86dfd9ae2"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
@@ -1709,11 +1038,7 @@
   "rating": 4.1,
   "types": [
     "cafe",
-    "store",
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "restaurant"
   ],
   "user_ratings_total": 560,
   "vicinity": "Tīnūžu šoseja 3а",
@@ -1721,86 +1046,209 @@
   "dine_in": true,
   "formatted_phone_number": "28 451 739",
   "serves_beer": true,
-  "takeout": true
+  "takeout": true,
+  "city": "Ikšķile"
 },{
   "_id": {
-    "$oid": "64537f81a302dc272c247292"
+    "$oid": "64542836a5917ce86dfd9ae3"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.84204200000001,
-      "lng": 24.5014468
+      "lat": 56.81799549999999,
+      "lng": 24.6054202
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8433835302915,
-        "lng": 24.5029206802915
+        "lat": 56.8195360802915,
+        "lng": 24.6069875302915
       },
       "southwest": {
-        "lat": 56.8406855697085,
-        "lng": 24.5002227197085
+        "lat": 56.8168381197085,
+        "lng": 24.6042895697085
       }
     }
   },
-  "name": "Dainas, kafejnīca",
-  "place_id": "ChIJt-33CVMu6UYRKMggPOlWeg0",
-  "price_level": 2,
-  "rating": 4.2,
-  "types": [
-    "cafe",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 616,
-  "vicinity": "Tīnūžu šoseja 3, Ikšķile",
-  "delivery": true,
-  "dine_in": true,
-  "formatted_phone_number": "28 451 739",
-  "serves_beer": true,
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "64537f81a302dc272c247293"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8394359,
-      "lng": 24.5033133
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8407579302915,
-        "lng": 24.5047822302915
-      },
-      "southwest": {
-        "lat": 56.8380599697085,
-        "lng": 24.50208426970849
-      }
-    }
-  },
-  "name": "Ozoliņa konditoreja",
-  "place_id": "ChIJm9wGwTcu6UYRXZaGEngVPwg",
-  "price_level": 2,
+  "name": "LaCasa Ogre",
+  "place_id": "ChIJF20bS10l6UYRJuHKm1fHQc4",
   "rating": 4.5,
   "types": [
-    "cafe",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "restaurant"
   ],
-  "user_ratings_total": 734,
-  "vicinity": "Melioratoru iela 20, Ikšķile",
+  "user_ratings_total": 169,
+  "vicinity": "Brīvības iela 21, Ogre",
+  "delivery": true,
   "dine_in": true,
-  "formatted_phone_number": "65 036 787",
+  "formatted_phone_number": "63 470 700",
   "serves_beer": true,
   "takeout": true,
-  "website": "https://www.ozolinakonditoreja.lv/"
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537f81a302dc272c247294"
+    "$oid": "64542836a5917ce86dfd9ae4"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.85891179999999,
+      "lng": 24.6962498
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.86033323029149,
+        "lng": 24.6978052802915
+      },
+      "southwest": {
+        "lat": 56.8576352697085,
+        "lng": 24.6951073197085
+      }
+    }
+  },
+  "name": "\"Turkalnes Muižas klēts\" SIA",
+  "place_id": "ChIJs57irTo76UYR3UfzHMM3WsQ",
+  "rating": 4.7,
+  "types": [
+    "bar",
+    "restaurant"
+  ],
+  "user_ratings_total": 105,
+  "vicinity": "Turkalne, Turkalnes Muiža, Tīnūžu, nov",
+  "dine_in": true,
+  "formatted_phone_number": "26 355 554",
+  "serves_beer": true,
+  "website": "http://www.turkalnesmuiza.lv/",
+  "city": "Turkalne"
+},{
+  "_id": {
+    "$oid": "64542836a5917ce86dfd9ae5"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.817192,
+      "lng": 24.610435
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.81960669999999,
+        "lng": 24.6115827802915
+      },
+      "southwest": {
+        "lat": 56.8163871,
+        "lng": 24.6088848197085
+      }
+    }
+  },
+  "name": "Aukro-99",
+  "place_id": "ChIJmdKs9EIl6UYRzfwXwo7DGWw",
+  "rating": 3.9,
+  "types": [
+    "cafe"
+  ],
+  "user_ratings_total": 8,
+  "vicinity": "Zinību iela 3, Ogre",
+  "dine_in": true,
+  "formatted_phone_number": "65 044 214",
+  "serves_beer": true,
+  "takeout": true,
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542836a5917ce86dfd9ae6"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8186222,
+      "lng": 24.6058916
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8198700302915,
+        "lng": 24.6073817802915
+      },
+      "southwest": {
+        "lat": 56.8171720697085,
+        "lng": 24.60468381970849
+      }
+    }
+  },
+  "name": "Kalnakraučas",
+  "place_id": "ChIJeWWhM10l6UYR2n7hZDS02Q8",
+  "rating": 3,
+  "types": [
+    "restaurant"
+  ],
+  "user_ratings_total": 8,
+  "vicinity": "Brīvības iela 25, Ogre",
+  "dine_in": true,
+  "formatted_phone_number": "26 475 860",
+  "takeout": true,
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542836a5917ce86dfd9ae7"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.879635,
+      "lng": 24.603189
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8810257302915,
+        "lng": 24.6042990802915
+      },
+      "southwest": {
+        "lat": 56.8783277697085,
+        "lng": 24.6016011197085
+      }
+    }
+  },
+  "name": "Очень вкусно",
+  "place_id": "ChIJ60CZBs8x6UYRGDbBb4onC1o",
+  "rating": 5,
+  "types": [
+    "bar"
+  ],
+  "user_ratings_total": 1,
+  "vicinity": "Latvia"
+},{
+  "_id": {
+    "$oid": "64542836a5917ce86dfd9ae8"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8150595,
+      "lng": 24.6029246
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8162950802915,
+        "lng": 24.6043036802915
+      },
+      "southwest": {
+        "lat": 56.8135971197085,
+        "lng": 24.60160571970849
+      }
+    }
+  },
+  "name": "Cita Telpa",
+  "place_id": "ChIJiZOhvA0l6UYRqEa-cvPYQ3w",
+  "rating": 5,
+  "types": [
+    "cafe"
+  ],
+  "user_ratings_total": 18,
+  "vicinity": "Brīvības iela 12a, Ogre",
+  "formatted_phone_number": "28 339 912",
+  "website": "https://www.citatelpa.lv/",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542836a5917ce86dfd9ae9"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
@@ -1824,10 +1272,7 @@
   "price_level": 3,
   "rating": 4.6,
   "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "restaurant"
   ],
   "user_ratings_total": 671,
   "vicinity": "Rīgas iela 18, Ikšķile",
@@ -1836,331 +1281,519 @@
   "formatted_phone_number": "29 179 333",
   "serves_beer": true,
   "takeout": true,
-  "website": "http://www.brandins.lv/"
+  "website": "http://www.brandins.lv/",
+  "city": "Ikšķile"
 },{
   "_id": {
-    "$oid": "64537f81a302dc272c247295"
+    "$oid": "64542836a5917ce86dfd9aea"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.8381281,
-      "lng": 24.4994473
+      "lat": 56.8180497,
+      "lng": 24.605576
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8394585302915,
-        "lng": 24.5007492802915
+        "lat": 56.8195727802915,
+        "lng": 24.60708243029151
       },
       "southwest": {
-        "lat": 56.8367605697085,
-        "lng": 24.4980513197085
+        "lat": 56.8168748197085,
+        "lng": 24.6043844697085
       }
     }
   },
-  "name": "“Uguns” american kitchen",
-  "place_id": "ChIJS5Z4Vskv6UYRruSv-EP5Y4o",
-  "rating": 4.9,
+  "name": "\"Armani\" SUSHI. Saldējuma Namiņš. Sušī Ogre",
+  "place_id": "ChIJhyd6QJIl6UYRafWLHHnsqKk",
+  "rating": 5,
   "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "cafe"
   ],
-  "user_ratings_total": 51,
-  "vicinity": "Skolas iela 19A, Ikšķile",
-  "dine_in": true,
-  "formatted_phone_number": "20 336 142",
-  "takeout": true
+  "user_ratings_total": 12,
+  "vicinity": "Brīvības iela 21a, Ogre",
+  "delivery": true,
+  "formatted_phone_number": "25 722 572",
+  "takeout": true,
+  "website": "http://www.sushiarmani.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537f81a302dc272c247296"
+    "$oid": "64542836a5917ce86dfd9aeb"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.8381702,
-      "lng": 24.4975166
+      "lat": 56.744549,
+      "lng": 24.68511
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8395097302915,
-        "lng": 24.4988645802915
+        "lat": 56.74596168029149,
+        "lng": 24.6864874302915
       },
       "southwest": {
-        "lat": 56.8368117697085,
-        "lng": 24.4961666197085
+        "lat": 56.7432637197085,
+        "lng": 24.6837894697085
       }
     }
   },
-  "name": "Grill waffles",
-  "place_id": "ChIJ1d6TeEgv6UYR34e8lTo9Z5s",
+  "name": "Oškrogs",
+  "place_id": "ChIJUy53YPYj6UYRTyFOz8sX7GY",
+  "price_level": 2,
+  "rating": 4.5,
+  "types": [
+    "restaurant"
+  ],
+  "user_ratings_total": 1273,
+  "vicinity": "Oši, Tomes pag., Ķeguma nov",
+  "delivery": false,
+  "dine_in": true,
+  "formatted_phone_number": "29 571 814",
+  "serves_beer": true,
+  "takeout": true,
+  "website": "http://www.oskrogs.lv/",
+  "city": "Rutki"
+},{
+  "_id": {
+    "$oid": "64542836a5917ce86dfd9aec"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8153121,
+      "lng": 24.6020734
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.81657473029151,
+        "lng": 24.6032833302915
+      },
+      "southwest": {
+        "lat": 56.81387676970851,
+        "lng": 24.6005853697085
+      }
+    }
+  },
+  "name": "GAITA Coffee Shop",
+  "place_id": "ChIJ19HkqYgl6UYRv6ka0JmHtKk",
+  "rating": 5,
+  "types": [
+    "cafe"
+  ],
+  "user_ratings_total": 8,
+  "vicinity": "Brīvības iela 9, Ogre",
+  "delivery": false,
+  "dine_in": true,
+  "formatted_phone_number": "26 667 573",
+  "takeout": true,
+  "website": "http://instagram.com/gaita_coffeeshop",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542837a5917ce86dfd9aed"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8186666,
+      "lng": 24.6059401
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8198922302915,
+        "lng": 24.6074260802915
+      },
+      "southwest": {
+        "lat": 56.8171942697085,
+        "lng": 24.6047281197085
+      }
+    }
+  },
+  "name": "Ilze, kafejnīca",
+  "place_id": "ChIJeWWhM10l6UYRL71Atd5VZ1g",
+  "price_level": 2,
+  "rating": 3.9,
+  "types": [
+    "cafe"
+  ],
+  "user_ratings_total": 352,
+  "vicinity": "Brīvības iela 25, Ogre",
+  "dine_in": true,
+  "formatted_phone_number": "26 543 080",
+  "serves_beer": true,
+  "takeout": true,
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542837a5917ce86dfd9aee"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8126647,
+      "lng": 24.6009925
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.81397983029149,
+        "lng": 24.6022116802915
+      },
+      "southwest": {
+        "lat": 56.81128186970849,
+        "lng": 24.59951371970849
+      }
+    }
+  },
+  "name": "Neste",
+  "place_id": "ChIJb2tXUW8l6UYRXz-R0TOSO4g",
   "rating": 4.3,
   "types": [
-    "cafe",
-    "store",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "restaurant"
   ],
-  "user_ratings_total": 14,
-  "vicinity": "Skolas iela 4A, Ikšķile",
-  "delivery": true,
-  "dine_in": true,
-  "formatted_phone_number": "22 339 914",
-  "takeout": true,
-  "website": "https://www.facebook.com/profile.php?id=100071317800983"
+  "user_ratings_total": 18,
+  "vicinity": "Rīgas iela 11a, Ogre",
+  "formatted_phone_number": "80 009 006",
+  "website": "http://www.neste.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537f81a302dc272c247297"
+    "$oid": "64542837a5917ce86dfd9aef"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.8381475,
-      "lng": 24.4994948
+      "lat": 56.8171304,
+      "lng": 24.6027348
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8395067802915,
-        "lng": 24.5007312802915
+        "lat": 56.81855313029151,
+        "lng": 24.6036877802915
       },
       "southwest": {
-        "lat": 56.8368088197085,
-        "lng": 24.4980333197085
+        "lat": 56.81585516970851,
+        "lng": 24.6009898197085
       }
     }
   },
-  "name": "Uguns, kafejnīca",
-  "place_id": "ChIJ27BqBp8v6UYRb6k1iIxUaMM",
+  "name": "Ogre Cultural Center Cafe",
+  "place_id": "ChIJvWrQ9Wcl6UYRQ0zT81QBpF4",
+  "rating": 4,
+  "types": [
+    "cafe"
+  ],
+  "user_ratings_total": 15,
+  "vicinity": "Brīvības iela 15, Ogre",
+  "dine_in": true,
+  "formatted_phone_number": "26 550 090",
+  "serves_beer": true,
+  "takeout": true,
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542837a5917ce86dfd9af0"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8166536,
+      "lng": 24.6051729
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.81791373029149,
+        "lng": 24.6065258802915
+      },
+      "southwest": {
+        "lat": 56.81521576970849,
+        "lng": 24.60382791970849
+      }
+    }
+  },
+  "name": "Ostreet",
+  "place_id": "ChIJV3VhlHUl6UYRPp3hjA26dCE",
+  "price_level": 2,
   "rating": 4.8,
   "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "restaurant"
   ],
-  "user_ratings_total": 309,
-  "vicinity": "Skolas iela, Ikšķile",
+  "user_ratings_total": 352,
+  "vicinity": "Brīvības iela 22, Ogre",
   "delivery": true,
   "dine_in": true,
-  "formatted_phone_number": "20 336 142",
+  "formatted_phone_number": "24 333 094",
   "serves_beer": true,
-  "takeout": true
+  "takeout": true,
+  "website": "http://www.ostreet.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537f81a302dc272c247298"
+    "$oid": "64542837a5917ce86dfd9af1"
   },
-  "business_status": "OPERATIONAL",
+  "business_status": "CLOSED_TEMPORARILY",
   "geometry": {
     "location": {
-      "lat": 56.8379902,
-      "lng": 24.4970836
+      "lat": 56.8159046,
+      "lng": 24.6041411
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8394152802915,
-        "lng": 24.4984667302915
+        "lat": 56.8171542302915,
+        "lng": 24.60541123029151
       },
       "southwest": {
-        "lat": 56.8367173197085,
-        "lng": 24.4957687697085
+        "lat": 56.8144562697085,
+        "lng": 24.60271326970851
       }
     }
   },
-  "name": "Konditoreja Rūberts",
-  "place_id": "ChIJoQt8Bcsv6UYRvShP2cyBy7I",
-  "rating": 4.3,
+  "name": "Pie Zelta Liepas",
+  "permanently_closed": true,
+  "place_id": "ChIJbSFN-pcl6UYRPWUwClFC_C4",
+  "rating": 4.4,
   "types": [
-    "cafe",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "restaurant"
   ],
-  "user_ratings_total": 6,
-  "vicinity": "Skolas iela 4A, Ikšķile",
-  "formatted_phone_number": "27 718 191",
-  "takeout": true
-},{
-  "_id": {
-    "$oid": "64537f81a302dc272c247299"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8393158,
-      "lng": 24.504225
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8407343802915,
-        "lng": 24.5056192302915
-      },
-      "southwest": {
-        "lat": 56.8380364197085,
-        "lng": 24.5029212697085
-      }
-    }
-  },
-  "name": "2 Tomāti picērija",
-  "place_id": "ChIJp_ta-14l6UYRnazOC7qbXI0",
-  "price_level": 2,
-  "rating": 4.6,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 235,
-  "vicinity": "Pārbrauktuves iela 1A, Ikšķile",
+  "user_ratings_total": 26,
+  "vicinity": "Brīvības iela 18, Ogre",
   "delivery": true,
-  "dine_in": true,
-  "formatted_phone_number": "20 101 122",
+  "formatted_phone_number": "25 873 817",
   "takeout": true,
-  "website": "https://www.divitomati.lv/"
+  "website": "http://www.zeltaliepas.lv/",
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537f81a302dc272c24729a"
+    "$oid": "64542837a5917ce86dfd9af2"
+  },
+  "business_status": "CLOSED_TEMPORARILY",
+  "geometry": {
+    "location": {
+      "lat": 56.81552540000001,
+      "lng": 24.5995411
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.81694223029151,
+        "lng": 24.6009942302915
+      },
+      "southwest": {
+        "lat": 56.81424426970851,
+        "lng": 24.5982962697085
+      }
+    }
+  },
+  "name": "Spriditis , kafejnica",
+  "permanently_closed": true,
+  "place_id": "ChIJ85hVsGcl6UYRV0grFWzlx0w",
+  "types": [
+    "cafe"
+  ],
+  "vicinity": "Skolas iela 3A, Ogre",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542837a5917ce86dfd9af3"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.83926229999999,
-      "lng": 24.505575
+      "lat": 56.8126386,
+      "lng": 24.6025957
     },
     "viewport": {
       "northeast": {
-        "lat": 56.8406112802915,
-        "lng": 24.5069239802915
+        "lat": 56.8140293802915,
+        "lng": 24.6039301302915
       },
       "southwest": {
-        "lat": 56.8379133197085,
-        "lng": 24.5042260197085
+        "lat": 56.8113314197085,
+        "lng": 24.6012321697085
       }
     }
   },
-  "name": "Konditoreja Rūberts",
-  "place_id": "ChIJjR_kSjYu6UYR8-JA-BKvzEo",
+  "name": "Hesburger",
+  "place_id": "ChIJRaYes_Ml6UYR26wY8MwqkP0",
+  "rating": 3.7,
+  "types": [
+    "restaurant"
+  ],
+  "user_ratings_total": 65,
+  "vicinity": "Rīgas iela 5, Ogre",
+  "dine_in": true,
+  "formatted_phone_number": "29 362 854",
+  "serves_beer": false,
+  "takeout": true,
+  "website": "https://www.hesburger.lv/",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542837a5917ce86dfd9af4"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8161645,
+      "lng": 24.5997767
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8173664302915,
+        "lng": 24.6008913302915
+      },
+      "southwest": {
+        "lat": 56.8146684697085,
+        "lng": 24.5981933697085
+      }
+    }
+  },
+  "name": "Uzkodas",
+  "place_id": "ChIJVYxpo2cl6UYRZl73wU2CPo0",
   "price_level": 2,
-  "rating": 4.7,
+  "rating": 3.9,
   "types": [
-    "cafe",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "cafe"
   ],
-  "user_ratings_total": 228,
-  "vicinity": "Daugavas prospekts 67, Ikšķile",
-  "dine_in": true,
-  "formatted_phone_number": "29 150 809",
-  "takeout": true,
-  "website": "https://www.konditorejaruberts.com/"
-},{
-  "_id": {
-    "$oid": "64537f81a302dc272c24729b"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.82905189999999,
-      "lng": 24.4888858
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.83034983029149,
-        "lng": 24.4903214302915
-      },
-      "southwest": {
-        "lat": 56.8276518697085,
-        "lng": 24.4876234697085
-      }
-    }
-  },
-  "name": "DĀRZĀ",
-  "place_id": "ChIJxVFQeCAv6UYRiQb0-s7cyaU",
-  "price_level": 2,
-  "rating": 4.6,
-  "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "user_ratings_total": 428,
-  "vicinity": "Kraujas iela 6, Ikšķile",
-  "dine_in": true,
-  "formatted_phone_number": "28 008 835",
-  "serves_beer": true,
-  "takeout": true,
-  "website": "https://www.facebook.com/DAARZAA"
-},{
-  "_id": {
-    "$oid": "64537f81a302dc272c24729c"
-  },
-  "business_status": "OPERATIONAL",
-  "geometry": {
-    "location": {
-      "lat": 56.8373461,
-      "lng": 24.487418
-    },
-    "viewport": {
-      "northeast": {
-        "lat": 56.8386623302915,
-        "lng": 24.4885894302915
-      },
-      "southwest": {
-        "lat": 56.8359643697085,
-        "lng": 24.48589146970849
-      }
-    }
-  },
-  "name": "EDS COFFEE BUS IK",
-  "place_id": "ChIJnzpqM0Eu6UYR1-QkvSj3YC4",
-  "types": [
-    "cafe",
-    "food",
-    "point_of_interest",
-    "establishment"
-  ],
-  "vicinity": "Lejas Iela 31, Ikšķile",
+  "user_ratings_total": 14,
+  "vicinity": "Skolas iela 2A, Ogre",
   "delivery": false,
-  "dine_in": false,
-  "formatted_phone_number": "29 237 922",
-  "website": "http://www.edscoffeebus.com/"
+  "dine_in": true,
+  "takeout": true,
+  "city": "Ogre"
 },{
   "_id": {
-    "$oid": "64537f82a302dc272c24729d"
+    "$oid": "64542837a5917ce86dfd9af5"
   },
   "business_status": "OPERATIONAL",
   "geometry": {
     "location": {
-      "lat": 56.82231729999999,
-      "lng": 24.4999617
+      "lat": 56.816498,
+      "lng": 24.6024841
     },
     "viewport": {
       "northeast": {
-        "lat": 56.82374648029151,
-        "lng": 24.50147788029151
+        "lat": 56.8177766802915,
+        "lng": 24.6037213302915
       },
       "southwest": {
-        "lat": 56.82104851970851,
-        "lng": 24.4987799197085
+        "lat": 56.8150787197085,
+        "lng": 24.60102336970849
       }
     }
   },
-  "name": "Veikals-kafejnīca \"Pludmale\"",
-  "place_id": "ChIJyVN3wHsv6UYRWyUcS0pxKL8",
-  "rating": 3.3,
+  "name": "WogaCafe, kafejnīca",
+  "place_id": "ChIJn9jqV4kl6UYRaVJ6F5p9_NM",
+  "rating": 4.6,
   "types": [
-    "restaurant",
-    "food",
-    "point_of_interest",
-    "establishment"
+    "restaurant"
   ],
-  "user_ratings_total": 24,
-  "vicinity": "Rīgas iela 20, Ikšķile",
+  "user_ratings_total": 44,
+  "vicinity": "Upes prospekts 10, Ogre",
+  "delivery": true,
   "dine_in": true,
+  "formatted_phone_number": "20 378 886",
   "serves_beer": true,
-  "takeout": true
+  "takeout": true,
+  "website": "http://www.wogacafe.lv/",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542837a5917ce86dfd9af6"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8165981,
+      "lng": 24.5988094
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.8180209302915,
+        "lng": 24.6002524302915
+      },
+      "southwest": {
+        "lat": 56.8153229697085,
+        "lng": 24.5975544697085
+      }
+    }
+  },
+  "name": "Divitomati",
+  "place_id": "ChIJ9yZS5Ucu6UYRgudR-QcXOQM",
+  "types": [
+    "cafe"
+  ],
+  "vicinity": "Skolas iela 4, Ogre",
+  "dine_in": true,
+  "formatted_phone_number": "23 370 033",
+  "takeout": true,
+  "website": "https://www.divitomati.lv/kontakti/",
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542837a5917ce86dfd9af7"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.8217947,
+      "lng": 24.5965844
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.82320513029151,
+        "lng": 24.5979896302915
+      },
+      "southwest": {
+        "lat": 56.82050716970851,
+        "lng": 24.5952916697085
+      }
+    }
+  },
+  "name": "Ciemos",
+  "place_id": "ChIJ4wtBePEl6UYRU9wqQuxf9dY",
+  "rating": 4.1,
+  "types": [
+    "cafe"
+  ],
+  "user_ratings_total": 105,
+  "vicinity": "Mālkalnes prospekts 4, Ogre",
+  "delivery": true,
+  "dine_in": true,
+  "formatted_phone_number": "26 371 853",
+  "serves_beer": true,
+  "takeout": true,
+  "city": "Ogre"
+},{
+  "_id": {
+    "$oid": "64542838a5917ce86dfd9af8"
+  },
+  "business_status": "OPERATIONAL",
+  "geometry": {
+    "location": {
+      "lat": 56.82220929999999,
+      "lng": 24.6064829
+    },
+    "viewport": {
+      "northeast": {
+        "lat": 56.82340178029149,
+        "lng": 24.6075713802915
+      },
+      "southwest": {
+        "lat": 56.8207038197085,
+        "lng": 24.6048734197085
+      }
+    }
+  },
+  "name": "Gamma-Ā",
+  "place_id": "ChIJo4IcmVwl6UYR54qh9j0Cpls",
+  "rating": 3.7,
+  "types": [
+    "restaurant"
+  ],
+  "user_ratings_total": 3,
+  "vicinity": "Meža prospekts 14, Ogre",
+  "dine_in": true,
+  "formatted_phone_number": "65 035 698",
+  "takeout": true,
+  "city": "Ogre"
 }]

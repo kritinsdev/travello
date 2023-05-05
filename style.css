@@ -7,6 +7,10 @@
 main {
   display: flex;
   height: 100vh;
+  flex-direction: column;
+  padding:16px;
+  background-color: rgb(41, 41, 41);
+  gap:16px;
 }
 
 .mapWrap {
@@ -25,9 +29,9 @@ main {
 }
 
 .places {
+  display: flex;
   background-color: white;
-  overflow-y: scroll;
-  max-height: 100%;
+  overflow-x: scroll;
 }
 
 .place {
