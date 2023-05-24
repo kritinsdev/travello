@@ -163,6 +163,6 @@ class App {
 }
 
 // new App();
-const response = await fetch("data.json")
-  .then((res) => res.json())
-  .then(res => console.log(res));
+// const response = await fetch("data.json")
+//   .then((res) => res.json())
+//   .then(res => console.log(res));

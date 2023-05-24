@@ -8,4 +8,10 @@
 
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.mainContainer {
+    display: flex;
+    padding: 16px;
+    height: 80%;
+}
+</style>
