@@ -15,9 +15,10 @@ class App {
   initMap() {
     this.map = new mapboxgl.Map({
       container: 'map', // container ID
-      style: 'mapbox://styles/kritinsdev/clhb5zy9v014j01pgbidw9x8k', // style URL
-      center: [24.6060, 56.8138], // starting position [lng, lat]
-      zoom: 15, // starting zoom
+      style: 'mapbox://styles/kritinsdev/clh6ok83a00s101quf9jk49sx',
+      // style: 'mapbox://styles/kritinsdev/clhb5zy9v014j01pgbidw9x8k',
+      center: [24.6060, 56.8138],
+      zoom: 15,
     });
 
     const geolocateControl = new mapboxgl.GeolocateControl({
@@ -56,13 +57,14 @@ class App {
       // Calculate distances and add them to the place objects
       const dataWithDistances = await Promise.all(
         data.map(async (item) => {
-          const distance = await this.getWalkingDistance(
-            this.currentLocationLat,
-            this.currentLocationLng,
-            item.geometry.location.lat,
-            item.geometry.location.lng
-          );
-          return { ...item, distance };
+
+          // const distance = await this.getWalkingDistance(
+          //   this.currentLocationLat,
+          //   this.currentLocationLng,
+          //   item.geometry.location.lat,
+          //   item.geometry.location.lng
+          // );
+          return { ...item };
         })
       );
 
@@ -71,7 +73,6 @@ class App {
 
       // Create markers for the sorted places
       this.createMarkers(sortedData);
-
       // Display the sorted places
       this.displayPlaces(sortedData);
     } catch (error) {
@@ -94,13 +95,13 @@ class App {
           `;
 
       const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(popupContent);
-      const icon = this.getIconFileName(types);
 
-      const markerElement = document.createElement("div");
-      markerElement.className = "marker";
-      markerElement.innerHTML = `<img src="${icon}" alt="Location Icon" width="24" height="24">`;
+      // const icon = this.getIconFileName(types);
+      // const markerElement = document.createElement("div");
+      // markerElement.className = "marker";
+      // markerElement.innerHTML = `<img src="${icon}" alt="Location Icon" width="24" height="24">`;
 
-      const marker = new mapboxgl.Marker(markerElement)
+      const marker = new mapboxgl.Marker()
         .setLngLat([
           place.geometry.location.lng,
           place.geometry.location.lat,
@@ -117,31 +118,42 @@ class App {
     places.forEach((place) => {
       const { name, vicinity, distance, website, formatted_phone_number } = place;
 
-      const directionsLink = `https://www.google.com/maps/dir/?api=1&origin=${this.currentLocationLat},${this.currentLocationLng}&destination=${place.geometry.location.lat},${place.geometry.location.lng}&travelmode=driving`;
+      // const directionsLink = `https://www.google.com/maps/dir/?api=1&origin=${this.currentLocationLat},${this.currentLocationLng}&destination=${place.geometry.location.lat},${place.geometry.location.lng}&travelmode=driving`;
+      // <a href="${directionsLink}" target="_blank">Get Directions</a>
 
       const placeElement = document.createElement("div");
       placeElement.className = "place";
       placeElement.innerHTML = `
-            <h3>${name}</h3>
-            <p>Distance: ${distance.toFixed(2)} km</p>
-            <a href="${directionsLink}" target="_blank">Get Directions</a>
+            <div class="placeImage">
+              <img src="https://cdn.onlinewebfonts.com/svg/img_148071.png" />  
+            </div>
+            <div class="placeDetails">
+              <h3>${name}</h3>
+              <div class="placeLocation">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="svgIcon">
+              <path fill-rule="evenodd" d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z" clip-rule="evenodd" />
+              </svg>  
+                Ogre
+              </div>
+              
+            </div>
           `;
 
       placesContainer.appendChild(placeElement);
     });
   }
 
-  async getWalkingDistance(lat1, lon1, lat2, lon2) {
-    const url = `https://api.mapbox.com/directions/v5/mapbox/walking/${lon1},${lat1};${lon2},${lat2}?access_token=${this.token}`;
-    try {
-      const response = await fetch(url);
-      const data = await response.json();
-      const distance = data.routes[0].distance / 1000; // distance in kilometers
-      return distance;
-    } catch (error) {
-      console.error('Error fetching driving distance:', error);
-    }
-  }
+  // async getWalkingDistance(lat1, lon1, lat2, lon2) {
+  //   const url = `https://api.mapbox.com/directions/v5/mapbox/walking/${lon1},${lat1};${lon2},${lat2}?access_token=${this.token}`;
+  //   try {
+  //     const response = await fetch(url);
+  //     const data = await response.json();
+  //     const distance = data.routes[0].distance / 1000; // distance in kilometers
+  //     return distance;
+  //   } catch (error) {
+  //     console.error('Error fetching driving distance:', error);
+  //   }
+  // }
 
   getIconFileName(types) {
     if (types.length > 1) {
@@ -162,7 +174,7 @@ class App {
   }
 }
 
-// new App();
+new App();
 // const response = await fetch("data.json")
 //   .then((res) => res.json())
 //   .then(res => console.log(res));
