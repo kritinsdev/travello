@@ -18,8 +18,15 @@ class PlaceController extends Controller
             $query->where('name', 'like', '%' . $request->input('name') . '%');
         }
 
+        if ($request->has('type')) {
+            $query->where('type', 'like', '%' . $request->input('type') . '%');
+        }
+
         if ($request->has('city')) {
-            $query->where('city', 'like', '%' . $request->input('city') . '%');
+            $city = $request->input('city');
+            $query->whereHas('city', function ($query) use ($city) {
+                $query->where('name', 'like', '%' . $city . '%');
+            });
         }
 
         if ($request->has('cuisine')) {
