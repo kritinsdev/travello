@@ -17,22 +17,12 @@ class DatabaseSeeder extends Seeder
             CitySeeder::class, // creates places also
         ]);
 
-        \App\Models\Cuisine::factory(10)->create();
+        $this->call([
+            TypeSeeder::class, // creates places also
+        ]);
 
-        $places = \App\Models\Place::all();
-        $cuisines = \App\Models\Cuisine::all();
-
-        foreach ($places as $place) {
-            $randomCuisineIds = $cuisines->random(3)->pluck('id')->toArray();
-
-            foreach ($randomCuisineIds as $cuisineId) {
-                DB::table('place_cuisine')->insert([
-                    'place_id' => $place->id,
-                    'cuisine_id' => $cuisineId,
-                    'created_at' => now(),
-                    'updated_at' => now(),
-                ]);
-            }
-        }
+        $this->call([
+            CuisineSeeder::class, // creates places also
+        ]);
     }
 }

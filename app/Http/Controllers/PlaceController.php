@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Place;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class PlaceController extends Controller
 {
@@ -18,8 +19,8 @@ class PlaceController extends Controller
             $query->where('name', 'like', '%' . $request->input('name') . '%');
         }
 
-        if ($request->has('type')) {
-            $query->where('type', 'like', '%' . $request->input('type') . '%');
+        if ($request->has('place_id')) {
+            $query->where('place_id', 'like', '%' . $request->input('place_id') . '%');
         }
 
         if ($request->has('city')) {
@@ -49,15 +50,17 @@ class PlaceController extends Controller
         // Validate the request data
         $validatedData = $request->validate([
             'name' => 'required',
-            'city' => 'required',
-            'type' => 'required',
-            // Other validation rules for your attributes
+            'phone_number' => 'nullable',
+            'lat' => 'nullable',
+            'lng' => 'nullable',
+            'address' => 'nullable',
+            'website' => 'nullable',
+            'city_id' => 'nullable',
+            'place_id' => 'nullable'
         ]);
 
-        // Create a new place
         $place = Place::create($validatedData);
 
-        // Return the newly created place as a JSON response
         return response()->json($place, 201);
     }
 

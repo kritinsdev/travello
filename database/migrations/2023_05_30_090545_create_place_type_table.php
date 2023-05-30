@@ -10,12 +10,14 @@ return new class extends Migration {
      */
     public function up(): void
     {
-        Schema::create('cities', function (Blueprint $table) {
+        Schema::create('place_type', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->decimal('latitude', 10, 8);
-            $table->decimal('longitude', 11, 8);
+            $table->unsignedBigInteger('place_id');
+            $table->unsignedBigInteger('type_id');
             $table->timestamps();
+
+            $table->foreign('place_id')->references('id')->on('places')->onDelete('cascade');
+            $table->foreign('type_id')->references('id')->on('types')->onDelete('cascade');
         });
     }
 
@@ -24,6 +26,6 @@ return new class extends Migration {
      */
     public function down(): void
     {
-        Schema::dropIfExists('cities');
+        Schema::dropIfExists('place_type');
     }
 };

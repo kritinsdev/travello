@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\CityController;
+use App\Http\Controllers\CuisineController;
+use App\Http\Controllers\TypeController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PlaceController;
@@ -25,4 +28,14 @@ Route::prefix('v1')->group(function () {
     Route::get('/places/{id}', [PlaceController::class, 'show']);
     Route::put('/places/{id}', [PlaceController::class, 'update']);
     Route::delete('/places/{id}', [PlaceController::class, 'destroy']);
+
+    Route::get('/cities', [CityController::class, 'index']);
+
+    Route::get('/cuisines', [CuisineController::class, 'index']);
+
+    Route::get('/types', [TypeController::class, 'index']);
+});
+
+Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
+    Route::apiResource('places', App\Http\Controllers\Admin\PlaceController::class);
 });

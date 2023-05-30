@@ -13,9 +13,14 @@ return new class extends Migration {
         Schema::create('places', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('type')->nullable();
             $table->string('phone_number')->nullable();
+            $table->string('lat')->nullable();
+            $table->string('lng')->nullable();
+            $table->string('address')->nullable();
             $table->string('website')->nullable();
+            $table->string('rating')->nullable();
+            $table->string('user_ratings_total')->nullable();
+            $table->string('place_id')->nullable();
             $table->unsignedBigInteger('city_id')->nullable();
             $table->foreign('city_id')->references('id')->on('cities')->onDelete('cascade');
             $table->timestamps();

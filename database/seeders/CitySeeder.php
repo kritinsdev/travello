@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\City;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
@@ -13,40 +14,31 @@ class CitySeeder extends Seeder
      */
     public function run(): void
     {
-        $faker = \Faker\Factory::create('en_US');
-        $faker->seed(1234);
+        $cities = [
+            [
+                'name' => 'Riga',
+                'latitude' => 56.9496,
+                'longitude' => 24.1052,
+            ],
+            [
+                'name' => 'Ogre',
+                'latitude' => 56.8167,
+                'longitude' => 24.6019,
+            ],
+            [
+                'name' => 'Sigulda',
+                'latitude' => 57.1547,
+                'longitude' => 24.8618,
+            ],
+            [
+                'name' => 'Jelgava',
+                'latitude' => 56.6483,
+                'longitude' => 23.7128,
+            ],
+        ];
 
-        $cities = [];
-
-        for ($i = 0; $i < 10; $i++) {
-            $city = [
-                'name' => $faker->city,
-                'latitude' => $faker->latitude(55.0, 58.0),
-                'longitude' => $faker->longitude(21.0, 28.0),
-            ];
-
-            $cities[] = $city;
+        foreach ($cities as $city) {
+            City::create($city);
         }
-
-        // Insert the data into the 'cities' table
-        DB::table('cities')->insert($cities);
-
-        // Associate places with cities
-        $places = [];
-
-        for ($i = 0; $i < 20; $i++) {
-            $place = [
-                'name' => $faker->company,
-                'type' => $faker->randomElement(['restaurant', 'cafe', 'bar']),
-                'phone_number' => $faker->phoneNumber(),
-                'website' => $faker->url(),
-                'city_id' => $faker->randomElement(DB::table('cities')->pluck('id')),
-            ];
-
-            $places[] = $place;
-        }
-
-        // Insert the data into the 'places' table
-        DB::table('places')->insert($places);
     }
 }
