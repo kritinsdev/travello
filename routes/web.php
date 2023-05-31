@@ -12,7 +12,3 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
-    Route::resource('places', App\Http\Controllers\Admin\PlaceController::class);
-});

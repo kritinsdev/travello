@@ -35,7 +35,3 @@ Route::prefix('v1')->group(function () {
 
     Route::get('/types', [TypeController::class, 'index']);
 });
-
-Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
-    Route::apiResource('places', App\Http\Controllers\Admin\PlaceController::class);
-});
