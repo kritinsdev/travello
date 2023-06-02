@@ -14,15 +14,19 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call([
-            CitySeeder::class, // creates places also
+            UserSeeder::class,
         ]);
 
         $this->call([
-            TypeSeeder::class, // creates places also
+            CitySeeder::class,
         ]);
 
         $this->call([
-            CuisineSeeder::class, // creates places also
+            TypeSeeder::class,
+        ]);
+
+        $this->call([
+            CuisineSeeder::class,
         ]);
     }
 }
