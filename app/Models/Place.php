@@ -21,4 +21,9 @@ class Place extends Model
         return $this->belongsToMany(Cuisine::class, 'place_cuisine');
     }
 
+    public function type()
+    {
+        return $this->belongsToMany(Type::class, 'place_type');
+    }
+
 }
