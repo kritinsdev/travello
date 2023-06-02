@@ -20,6 +20,9 @@ return new class extends Migration {
             $table->string('website')->nullable();
             $table->string('rating')->nullable();
             $table->string('user_ratings_total')->nullable();
+            $table->boolean('delivery')->nullable();
+            $table->boolean('dine_in')->nullable();
+            $table->boolean('takeout')->nullable();
             $table->string('place_id')->nullable();
             $table->unsignedBigInteger('city_id')->nullable();
             $table->foreign('city_id')->references('id')->on('cities')->onDelete('cascade');

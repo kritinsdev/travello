@@ -42,12 +42,8 @@ class PlaceController extends Controller
         return response()->json($places);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
     public function store(Request $request)
     {
-        // Validate the request data
         $validatedData = $request->validate([
             'name' => 'required',
             'phone_number' => 'nullable',
@@ -55,8 +51,11 @@ class PlaceController extends Controller
             'lng' => 'nullable',
             'address' => 'nullable',
             'website' => 'nullable',
+            'delivery' => 'nullable',
+            'dine_in' => 'nullable',
+            'takeout' => 'nullable',
+            'place_id' => 'nullable',
             'city_id' => 'nullable',
-            'place_id' => 'nullable'
         ]);
 
         $place = Place::create($validatedData);
