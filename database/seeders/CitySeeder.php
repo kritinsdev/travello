@@ -17,23 +17,23 @@ class CitySeeder extends Seeder
         $cities = [
             [
                 'name' => 'Riga',
-                'latitude' => 56.9496,
-                'longitude' => 24.1052,
+                'lat' => 56.9496,
+                'lng' => 24.1052,
             ],
             [
                 'name' => 'Ogre',
-                'latitude' => 56.8167,
-                'longitude' => 24.6019,
+                'lat' => 56.8167,
+                'lng' => 24.6019,
             ],
             [
                 'name' => 'Sigulda',
-                'latitude' => 57.1547,
-                'longitude' => 24.8618,
+                'lat' => 57.1547,
+                'lng' => 24.8618,
             ],
             [
                 'name' => 'Jelgava',
-                'latitude' => 56.6483,
-                'longitude' => 23.7128,
+                'lat' => 56.6483,
+                'lng' => 23.7128,
             ],
         ];
 

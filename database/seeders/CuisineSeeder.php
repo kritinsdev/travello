@@ -26,6 +26,8 @@ class CuisineSeeder extends Seeder
             'Wine',
             'Pasta',
             'Full meal',
+            'Snacks',
+            'Alcohol',
         ];
 
         foreach ($cuisines as $cuisine) {

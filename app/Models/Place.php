@@ -4,12 +4,33 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
-class Place extends Model
+class Place extends Model implements HasMedia
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'phone_number', 'lat', 'lng', 'address', 'website', 'delivery', 'dine_in', 'takeout', 'place_id', 'city_id'];
+    use InteractsWithMedia;
+
+    protected $fillable = [
+        'name',
+        'phone_number',
+        'lat',
+        'lng',
+        'address',
+        'website',
+        'rating',
+        'user_ratings_total',
+        'delivery',
+        'dine_in',
+        'takeout',
+        'operational',
+        'priority',
+        'place_id',
+        'city_id'
+    ];
 
     public function city()
     {
@@ -25,5 +46,4 @@ class Place extends Model
     {
         return $this->belongsToMany(Type::class, 'place_type');
     }
-
 }

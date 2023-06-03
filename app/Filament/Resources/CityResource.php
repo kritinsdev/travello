@@ -28,9 +28,9 @@ class CityResource extends Resource
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->columnSpanFull(),
-                Forms\Components\TextInput::make('latitude')
+                Forms\Components\TextInput::make('lat')
                     ->required(),
-                Forms\Components\TextInput::make('longitude')
+                Forms\Components\TextInput::make('lng')
                     ->required(),
             ]);
     }
@@ -40,8 +40,8 @@ class CityResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('name'),
-                Tables\Columns\TextColumn::make('latitude'),
-                Tables\Columns\TextColumn::make('longitude'),
+                Tables\Columns\TextColumn::make('lat'),
+                Tables\Columns\TextColumn::make('lng'),
             ])
             ->filters([
                 //

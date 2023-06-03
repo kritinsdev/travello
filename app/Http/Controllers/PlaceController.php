@@ -2,14 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PlaceResource;
 use App\Models\Place;
 use Illuminate\Http\Request;
 
 class PlaceController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index(Request $request)
     {
         $query = Place::query();
@@ -36,9 +34,9 @@ class PlaceController extends Controller
             });
         }
 
-        $places = $query->get();
 
-        return response()->json($places);
+        $places = $query->get();
+        return PlaceResource::collection($places);
     }
 
     public function store(Request $request)
@@ -50,9 +48,12 @@ class PlaceController extends Controller
             'lng' => 'nullable',
             'address' => 'nullable',
             'website' => 'nullable',
+            'rating' => 'nullable',
+            'user_ratings_total' => 'nullable',
             'delivery' => 'nullable',
             'dine_in' => 'nullable',
             'takeout' => 'nullable',
+            'operational' => 'required',
             'place_id' => 'nullable',
             'city_id' => 'nullable',
         ]);
@@ -62,53 +63,10 @@ class PlaceController extends Controller
         return response()->json($place, 201);
     }
 
-    /**
-     * Display the specified resource.
-     */
     public function show(string $id)
     {
-        // Find the place by ID
         $place = Place::findOrFail($id);
 
-        // Return the place as a JSON response
         return response()->json($place);
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        // Find the place by ID
-        $place = Place::findOrFail($id);
-
-        // Validate the request data
-        $validatedData = $request->validate([
-            'name' => 'required',
-            'city' => 'required',
-            'type' => 'required',
-            // Other validation rules for your attributes
-        ]);
-
-        // Update the place with the validated data
-        $place->update($validatedData);
-
-        // Return the updated place as a JSON response
-        return response()->json($place);
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
-    {
-        // Find the place by ID
-        $place = Place::findOrFail($id);
-
-        // Delete the place
-        $place->delete();
-
-        // Return a success message as a JSON response
-        return response()->json(['message' => 'Place deleted successfully']);
     }
 }

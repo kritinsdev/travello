@@ -21,7 +21,8 @@ class TypeSeeder extends Seeder
             'Bistro',
             'Pizzeria',
             'Bakery',
-            'Food Truck'
+            'Food Truck',
+            'Gas Station'
         ];
 
         foreach ($types as $type) {
