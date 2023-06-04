@@ -9,6 +9,7 @@ class PlaceResource extends JsonResource
 {
     public function toArray(Request $request): array
     {
+        //Custom data
         return [
             'id' => $this->id,
             'name' => $this->name,
